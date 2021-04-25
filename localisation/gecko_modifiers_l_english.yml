@@ -18,4 +18,6 @@
  over_merc_cap_mid:0 "Overreliance on Mercenaries" 
  over_merc_cap_late:0 "Overreliance on Mercenaries"
  over_merc_cap_early_pluto:0 "Overreliance on Mercenaries - Pluto"
- over_merc_cap_mid_pluto:0 "Overreliance on Mercenaries - Pluto"   
+ over_merc_cap_mid_pluto:0 "Overreliance on Mercenaries - Pluto"  
+ the_upper_nile:0 "The Upper Nile"
+ desc_the_upper_nile:0 "The fertile lands of the Upper Nile provide great potential for agriculture and further development."

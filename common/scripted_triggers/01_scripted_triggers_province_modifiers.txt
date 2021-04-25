@@ -161,6 +161,7 @@ province_with_special_goods_produced_trigger = {
 		has_province_modifier = perfume_capital
 		has_province_modifier = kaffa_slave_market #dum
 		has_province_modifier = transcaucasian_wine_valleys #dum
+		has_province_modifier = the_upper_nile #smeev
 	}
 }
 
