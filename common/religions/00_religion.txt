@@ -1209,7 +1209,7 @@ eastern = {
 			advisor_cost = -0.1
 		}
 		country_as_secondary = {
-			development_cost = -0.1
+			development_cost = -0.05
 			diplomats = 1
 		}
 		on_convert = {
