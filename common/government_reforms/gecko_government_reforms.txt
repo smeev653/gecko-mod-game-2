@@ -147,4 +147,26 @@ gecko_noble_regiments_reform = { #Noble Regiments
 	modifiers = {
 		land_morale = 0.1
 	}
+}
+
+kingdom_of_god_reform = {
+	icon = "kingdom_of_god"
+	potential = {
+		tag = PAP
+		OR = {
+			has_reform = kingdom_of_god_reform
+			have_had_reform = kingdom_of_god_reform
+		}
+	}
+	modifiers = {
+		global_manpower_modifier = 0.25
+		prestige = 1
+		devotion = 1
+		appoint_cardinal_cost = -0.5
+		papal_influence_from_cardinals = 1.0
+		land_morale = 0.15
+	}
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	fixed_rank = 3
 }	
