@@ -3465,7 +3465,7 @@ NPL_ideas = {
 KNI_ideas = {
 	start = {
 		discipline = 0.05
-		may_perform_slave_raid = yes
+		trade_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -6342,7 +6342,7 @@ BAH_ideas = {
 
 JAJ_ideas = {
 	start = {
-		may_perform_slave_raid = yes
+		trade_efficiency = 0.1
 		light_ship_cost = -0.20
 	}
 
@@ -14056,7 +14056,7 @@ MOR_ideas = {
 
 TUN_ideas = {
 	start = {
-		may_perform_slave_raid = yes
+		trade_efficiency = 0.1
 		galley_power = 0.2		
 	}
 	bonus = {
@@ -14639,7 +14639,7 @@ NRM_ideas = {
 	}
 	
 	bonus = {
-		may_perform_slave_raid_on_same_religion = yes
+		trade_efficiency = 0.1
 	}
 	
 	trigger = {
