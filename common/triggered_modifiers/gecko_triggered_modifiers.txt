@@ -60,7 +60,7 @@ empowered_subjects = {
 	naval_forcelimit_modifier = 0.5
 	global_trade_goods_size_modifier = 0.25
 	idea_cost = -0.25
-	tech_cost = -0.10
+	technology_cost = -0.10
 	loot_amount = 0.25
 }
 	
