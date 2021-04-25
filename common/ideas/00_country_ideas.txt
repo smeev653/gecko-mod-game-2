@@ -14044,7 +14044,7 @@ MOR_ideas = {
 		galley_power = 0.2
 	}
 	mor_pirate_republics = {
-		privateer_efficiency = 0.15
+		trade_efficiency = 0.10
 	}
 	mor_slave_soldiers = {
 		land_maintenance_modifier = -0.05

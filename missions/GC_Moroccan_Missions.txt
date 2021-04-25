@@ -446,10 +446,10 @@ gc_morocco_2 = {
 		
 		trigger = {
 			1293 = {
-				privateer_power = {
-					country = ROOT
-					share = 25
-				}
+				trade_share = {
+						country = ROOT
+						share = 25
+					}
 			}
 		}
 		
@@ -686,10 +686,9 @@ gc_morocco_3 = {
 				}
 			}
 				1298 = {
-					privateer_power = {
+					trade_share = {
 						country = ROOT
 						share = 25
-						
 					}
 				}
 		}
@@ -812,10 +811,10 @@ gc_morocco_3 = {
 		
 		trigger = {
 			1975 = {
-				privateer_power = {
-					country = ROOT
-					share = 33
-				}
+				trade_share = {
+						country = ROOT
+						share = 25
+					}
 			}
 			kingdom_of_the_isles_area = {
 				type = all
