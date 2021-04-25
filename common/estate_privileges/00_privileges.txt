@@ -1770,12 +1770,12 @@ estate_burghers_indebted_to_burghers = {
 	influence = 0.05
 	can_select = {
 		NOT = {
-			num_of_estate_privileges = {
-			estate = estate_burghers
-			value = 4
-			}
+				num_of_estate_privileges = {
+				estate = estate_burghers
+				value = 4
+				}
 		}
-	}
+	}		
 	on_granted = {
 		custom_tooltip = estate_burghers_indebted_to_burghers_effect_tooltip
 		add_mercantilism = -1
@@ -1815,6 +1815,7 @@ estate_burghers_indebted_to_burghers = {
 	}
 	benefits = {
 	}
+	cooldown_years = 15
 	ai_will_do = {
 		factor = 0
 	}
@@ -2850,6 +2851,7 @@ estate_jains_indebted_to_jains = {
 	}
 	benefits = {
 	}
+	cooldown_years = 15
 	ai_will_do = {
 		factor = 0
 	}
@@ -7114,14 +7116,14 @@ estate_vaisyas_control_over_monetary_policy = {
 			}
 		}
 	}
-	penalties = {
-		all_power_cost = 0.05
-	}
 	benefits = {
 		inflation_reduction = 0.15
-		interest = -0.5
-		production_efficiency = 0.05
 	}
+	
+	modifier_by_land_ownership = {
+			production_efficiency = 0.30
+			}
+			
 	ai_will_do = {
 		factor = 1
 		modifier = {
@@ -7155,14 +7157,14 @@ estate_jains_control_over_monetary_policy = {
 			}
 		}
 	}
-	penalties = {
-		all_power_cost = 0.05
-	}
 	benefits = {
 		inflation_reduction = 0.15
-		interest = -0.5
-		production_efficiency = 0.05
 	}
+	
+	modifier_by_land_ownership = {
+			production_efficiency = 0.30
+			}
+			
 	ai_will_do = {
 		factor = 1
 		modifier = {
