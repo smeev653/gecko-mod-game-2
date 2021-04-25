@@ -14943,7 +14943,7 @@ WES_ideas = {
 SWA_ideas = {
 	start = {
 		global_manpower_modifier = 0.2
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	bonus = {
 		global_prov_trade_power_modifier = 0.25
@@ -14958,10 +14958,10 @@ SWA_ideas = {
 	}
 	swa_stinginess = {
 		build_cost = -0.15
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.15
 	}
 	swa_barbarossas_legacy = {
-		discipline = 0.05
+		infantry_power = 0.1
 	}
 	swa_swabian_league = {
 		diplomatic_upkeep = 2
