@@ -207,7 +207,7 @@ SWE_ideas = {
 MOS_ideas = {
 	start = {
 		diplomatic_upkeep = 1
-		shock_damage = 0.10
+		shock_damage_received = -0.10
 	}
 
 	bonus = {
