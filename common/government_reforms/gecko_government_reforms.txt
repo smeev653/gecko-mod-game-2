@@ -14,7 +14,7 @@ silk_road_empire = { #tier 1
 		trade_range_modifier = 0.50
 		movement_speed = 0.20	
 		governing_capacity = 100
-		fort_maintenance_modifier = -0.2
+		#fort_maintenance_modifier = -0.2
 		
 	}
 	government_abilities = {
