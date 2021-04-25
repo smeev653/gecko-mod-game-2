@@ -138,4 +138,13 @@ empire_of_hungary_reform = {
 	allow_normal_conversion = yes
 	lock_level_when_selected = yes
 	fixed_rank = 3
+}
+
+gecko_noble_regiments_reform = { #Noble Regiments
+	icon = "soldiers_6"
+	allow_normal_conversion = yes
+
+	modifiers = {
+		land_morale = 0.1
+	}
 }	

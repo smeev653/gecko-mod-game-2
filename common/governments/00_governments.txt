@@ -126,6 +126,7 @@ monarchy = {
 				emperor_of_the_revolution_reform
 				enlightened_monarchy_reform
 				become_rev_republic_reform
+				gecko_noble_regiments_reform
 			}
 		}
 	}
