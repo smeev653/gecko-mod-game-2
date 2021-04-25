@@ -94,7 +94,7 @@ reforms_of_abbas_i_reform = { #tier 5
 		tag = PER
 	}
 	modifiers = {
-		fire_damage = 0.10
+		#fire_damage = 0.10
 		global_autonomy = -0.05
 		tolerance_heathen = 1
 		global_unrest = -1
