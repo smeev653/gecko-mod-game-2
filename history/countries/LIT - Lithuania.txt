@@ -9,6 +9,7 @@ technology_group = eastern
 historical_friend = POL
 historical_rival = NOV
 historical_rival = MOS
+historical_rival = FEO
 capital = 272 # Vilnius
 
 1392.1.1 = {
