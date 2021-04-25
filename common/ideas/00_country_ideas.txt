@@ -2850,7 +2850,7 @@ PAP_ideas = {
 		prestige = 1
 	}
 	centralize_the_states = {
-		production_efficiency = 0.1
+		state_maintenance_modifier = -0.25
 	}
 	the_vatican_museums = {
 		possible_policy = 1
