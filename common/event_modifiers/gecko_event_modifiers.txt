@@ -1,0 +1,77 @@
+ gecko_absolutism = {
+	max_absolutism = 150
+	}
+	
+enlist_rajputs = {	
+	special_unit_forcelimit = 0.2
+	}
+	
+national_bank_interest = {
+	build_time = -0.25
+	build_cost = -0.1
+	}	
+	
+national_bank_inflation = {
+	inflation_reduction = 0.2
+	build_cost = -0.1
+	}
+
+estate_cossacks_exploration_expedition_mod = {
+	local_development_cost = -0.05
+}
+
+estate_cossacks_prime_herding_rights_mod = {
+	local_tax_modifier = -0.2
+	local_manpower_modifier = 0.25
+}
+
+domain_of_spouses_family = {
+	local_missionary_strength = -0.05
+	local_unrest = -3
+}
+
+PR_commandant_cooldown = {
+	discipline = 0.001
+}
+
+PR_grand_captain_cooldown = {
+	land_morale = 0.001
+}
+
+hired_explorer = {
+}
+
+hired_conquistador = {
+}
+
+jihad = {
+	monthly_piety = -0.08333	
+}
+
+mesopotamian_marshes_drained = {
+	local_development_cost = -0.30
+	allowed_num_of_buildings = 1
+}
+
+commercial_monopoly = {
+	production_efficiency = 0.1
+}
+
+pap_indulgences = {
+	global_tax_income = 12
+}
+pap_simony = {
+	global_tax_income = 12
+}
+pap_veneration_relics = {
+	global_tax_income = 12
+}
+
+upkeep_of_holy_cities = {
+	state_maintenance_modifier  = 0.1
+}	
+
+purification_of_tax_laws = {
+	global_unrest = -1
+	state_maintenance_modifier  = 0.1
+}	

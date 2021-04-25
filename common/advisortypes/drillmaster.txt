@@ -1,0 +1,19 @@
+drillmaster = {
+	monarch_power = MIL
+	
+	# Bonus
+	drill_gain_modifier = 0.33
+
+	skill_scaled_modifier = { meritocracy = 0.5 }
+
+        allow_only_male = yes
+        # allow_only_female = yes
+
+	chance = {
+		factor = 1
+	}
+	
+	ai_will_do = {
+		factor = 1
+	}
+}

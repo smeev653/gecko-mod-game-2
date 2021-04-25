@@ -1,0 +1,72 @@
+# Drillmaster
+
+namespace = drillmaster_events
+
+country_event = {
+	id = drillmaster_events.1
+	title = "drillmaster_events.1.t"
+	desc = "drillmaster_events.1.d"
+	picture = ADVISOR_eventPicture
+	
+	trigger = {
+		drillmaster = 3
+		NOT = { has_country_flag = drillmaster }
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+		
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 4
+		}
+		modifier = {
+			factor = 0.9
+			innovativeness_ideas = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 4 }
+		}
+		modifier = {
+			factor = 1.1
+			NOT = { innovativeness_ideas = 2 }
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4021"	# His efforts will be admired throughout the nation
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				stability = 2
+			}
+		}
+		add_meritocracy_effect = yes
+		add_country_modifier = {
+			name = "excellent_drill"
+			duration = 2190
+		}
+		add_stability_or_adm_power = yes
+		set_country_flag = drillmaster
+	}
+		
+	option = {
+		name = "EVTOPTB4021"	# His reputation will reach further than our borders
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				NOT = { stability = 1 }
+			}
+		}
+		add_meritocracy_effect = yes
+		add_country_modifier = {
+			name = "excellent_drill"
+			duration = 2190
+		}
+		add_prestige = 50
+		set_country_flag = drillmaster
+	}
+}

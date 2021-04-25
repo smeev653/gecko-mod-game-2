@@ -1,0 +1,27 @@
+hungary_unleashed = {
+	ae_impact = -0.25
+	province_warscore_cost = -0.2
+}
+
+rule_britannia = {
+	prestige = 1
+	legitimacy = 1
+	republican_tradition = 0.6
+	devotion = 1
+	global_ship_recruit_speed = -0.25
+	global_ship_cost = -0.25
+	heavy_ship_power = 0.1
+}
+
+burgundy_subjects_placated = {
+	reduced_liberty_desire = 50
+}
+
+succesful_bid_for_imperial_crown = {
+	#ae_impact = -0.1
+	province_warscore_cost = -0.1
+}
+
+silk_road_restored = {
+	trade_goods_size_modifier = 0.25
+}

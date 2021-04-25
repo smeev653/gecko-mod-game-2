@@ -1,0 +1,36 @@
+#backstab_neighbour = {
+#	category = covert
+#
+#	alert_index = 40
+#	alert_tooltip = ICON_BREAK_ALLIANCE
+#
+#	require_acceptance = no # Whether the recipient gets an option to decline
+#
+#	is_visible = {
+#		is_subject = no
+#		FROM = {
+#			is_subject = no
+#		}
+#	}
+#	is_allowed = {
+#		NOT = { border_distance = {
+#			who = FROM
+#		distance = 1
+#		} }
+#		#has_casus_belli = {
+#		#	type = cb_conquest
+#		#	target = FROM   
+#		#}	
+#		alliance_with = FROM
+#		}
+#
+#	on_accept = {
+#				country_event = { id = gecko.6 }
+#			#declare_war = FROM
+#			#declare_war_with_cb = {
+#			#		who = FROM
+#			#		casus_belli = cb_conquest
+#			#}		
+#			add_dip_power = -100
+#	}
+#}

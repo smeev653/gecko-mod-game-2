@@ -1,0 +1,11 @@
+﻿l_english:
+ buk_mission_conquer_central_asia_title:0 "Dominate Central Asia"
+ buk_mission_conquer_central_asia_desc:0 "No Khan must be left in Central Asia to challenge our rule. Our dominance over the region must be absolute."
+ buk_mission_conquer_mongolia_title:0 "Khan of Khans"
+ buk_mission_conquer_mongolia_desc:0 "At least, Mongolia itself is within our reach. We must lead our armies into Karakorum and proclaim that the Mongol Empire has been restored!"
+ buk_mission_conquer_china_title:0 "Invade China"
+ buk_mission_conquer_china_desc:0 "China is the final obstacle to our great restoration of the Great Khan's empire. Temujin himself would look upon our empire with pride as the Heavenly Kingdom crumbles before us."
+ buk_mission_restore_silk_road_title:0 "Restore the Silk Road"
+ buk_mission_restore_silk_road_desc:0 "Ever since our nation was created, we have been adamant that we are the heir of the Khan, heir of the Steppes, and heir of the Silk Road. Our wealth and glory, our trade and armies, all of us within our nation knows this to be the truth. Sadly it has taken others a long time to realise this, to end their scoffing and for us to punish the upstarts. Through our importation of artisans, our rebuilding of critical trade infrastructure, our irrigation of the desert; we have been able to restore the Silk Road."
+ gecko_emp_hab_no_one_to_threaten_us_trigger_tooltip:0 "No HRE member state:\n         §Y30§! or more provinces in §YEurope§! are owned by §Ycountry§! or its by non-tributary subjects.\n         Is NOT subject to §YAustria§!."
+ gecko_mil_vatican_library_tt:0 "§YThe Vatican Library - Military Edition§! will be established in §Y[118.GetName]§!, giving the following effects:\nMilitary Technology Cost: §G-5%§!\nDiscipline: §G+5%§!"

@@ -1,0 +1,8 @@
+house_of_wisdom = {
+	province_trade_power_value = 10
+	technology_cost = -0.05
+	}
+	
+karun_tributary_modifier = {
+	province_trade_power_value = 10
+	}

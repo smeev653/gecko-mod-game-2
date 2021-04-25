@@ -1,0 +1,23 @@
+government = republic
+add_government_reform = united_cantons_reform
+government_rank = 1
+mercantilism = 25
+elector = yes
+technology_group = western
+primary_culture = swabian
+religion = catholic
+capital = 4712 # Konstanz
+
+
+1440.1.1 = {
+	monarch = {
+		name = "Patriziat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+1525.1.1 = {
+	religion = reformed
+}
