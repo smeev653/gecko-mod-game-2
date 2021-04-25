@@ -1294,8 +1294,8 @@ BUR_Ideas = {
 	bur_estates_general = {
 		mercenary_manpower = 0.5
 	}
-	reform_of_feudal_army = {
-		discipline = 0.05
+	bur_regimental_system = {
+		global_manpower_modifier = 0.25
 	}
 	integrated_towns = {
 		trade_efficiency = 0.10
@@ -1303,8 +1303,8 @@ BUR_Ideas = {
 	freedom_of_worship = {
 		tolerance_heretic = 2
 	}
-	bur_regimental_system = {
-		global_manpower_modifier = 0.25
+	reform_of_feudal_army = {
+		discipline = 0.05
 	}
 }
 
