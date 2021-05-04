@@ -34,7 +34,7 @@ estate_qizilbash_levies = {
 		any_owned_province = {
 			OR = {
 				culture = azerbaijani
-				culture = mazandarani
+				#culture = mazandarani
 				culture = kurdish
 				culture = luri
 				}
@@ -55,7 +55,7 @@ estate_qizilbash_levies = {
 				limit = {
 					OR = {
 					culture = azerbaijani
-					culture = mazandarani
+					#culture = mazandarani
 					culture = kurdish
 					culture = luri
 					}
