@@ -133,7 +133,7 @@ empire_of_hungary_reform = {
 		manpower_recovery_speed = 0.15
 		prestige = 1
 		devotion = 1
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	allow_normal_conversion = yes
 	lock_level_when_selected = yes
