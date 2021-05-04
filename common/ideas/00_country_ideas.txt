@@ -1632,7 +1632,7 @@ ARA_ideas = {
 
 MUG_ideas = {
 	start = {
-		global_own_trade_power = 0.25
+		core_creation = -0.25
 		cavalry_power = 0.20
 	}
 	
@@ -1657,7 +1657,7 @@ MUG_ideas = {
 		global_manpower_modifier = 0.2
 	}
 	mughal_ibadat_khana = {
-		technology_cost = -0.1
+		idea_cost = -0.1
 	}
 	an_indian_padshah = {
 		free_mil_policy = 1
@@ -1666,7 +1666,7 @@ MUG_ideas = {
 		prestige = 1
 	}
 	fatawa_e_alamgiri = {
-		global_trade_goods_size_modifier = 0.10
+		stability_cost_modifier = -0.25
 	}
 }
 
@@ -14968,14 +14968,13 @@ SWA_ideas = {
 		diplomatic_annexation_cost = -0.15
 	}
 	swa_fugger_banks = {
-		inflation_reduction = 0.05
-		interest = -0.25
+		inflation_reduction = 0.2
 	}
 	swa_hohenstaufen_emperors = {
 		prestige = 1
 	}
 	swa_free_cities = {
-		land_morale = 0.15
+		land_morale = 0.10
 	}
 }
 
