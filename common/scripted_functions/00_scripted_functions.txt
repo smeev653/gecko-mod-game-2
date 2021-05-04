@@ -20,7 +20,9 @@ can_leave_hre_league = {
 can_harsh_treatment = {
 	condition = {
 			potential = {
-				ai = yes
+				FROM = {
+					ai = yes
+				}
 			}
 			allow = {
 				always = no
@@ -78,7 +80,9 @@ can_remove_province_from_hre = {
 can_increase_autonomy = {
 	condition = {
 			potential = {
-				ai = yes
+				FROM = {
+						ai = yes
+				}	
 			}
 			allow = {
 				always = no
@@ -149,6 +153,21 @@ can_move_capital = {
 }
 
 can_move_trade_port = {
+	condition = {
+		tooltip = "PR_tooltip_move_capital"
+		potential = {
+		}
+		allow = {
+			NOT = {
+				OR = {
+					continent = south_america
+					continent = north_america
+					region = australia_region
+					region = oceanea_region
+				}
+			}
+		}
+	}
 }
 
 can_order_assault = {
