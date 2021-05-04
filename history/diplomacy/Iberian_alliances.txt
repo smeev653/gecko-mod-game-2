@@ -1,3 +1,19 @@
+#CAS and NAV
+vassal =  {
+	first = CAS
+	second = NAV
+	start_date = 1444.11.1
+	end_date = 1479.1.20
+}
+
+# Ferdinand and Isabel
+union = {
+	first = CAS
+	second = ARA
+	start_date = 1444.11.1
+	end_date = 1516.1.23
+}
+
 # Navarra under John II of Aragon
 union =  {
 	first = ARA
