@@ -319,7 +319,7 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		shock_damage_received = -0.10
+		shock_damage_received = -0.15
 	}
 
 	battlefield_commisions = {
