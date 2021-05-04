@@ -387,7 +387,7 @@ well_connected_personality = {
 	
 	other_ai_help_us_multiplier = 2
 	
-	advisor_cost = -0.2
+	advisor_cost = -0.15
 	nation_designer_cost = 2
 } #1 better event
 
@@ -492,7 +492,7 @@ careful_personality = {
 	war_chance_multiplier = 0.4
 	enemy_strength_multiplier = 1.2
 	
-	ae_impact = -0.10
+	ae_impact = -0.15
 	nation_designer_cost = 5
 } #modifies scandal at court, 
 
@@ -1707,7 +1707,7 @@ strict_personality = {
 	wants_avoid_loans = yes
 	wants_ecumenical_council = yes
 	
-	discipline = 0.05
+	discipline = 0.025
 
 	nation_designer_cost = 5
 } #1 easier event
@@ -2649,7 +2649,7 @@ cruel_personality = {
 	razing = yes
 	lower_autonomy = yes
 	
-	global_unrest = 2
+	global_unrest = 1
 	nation_designer_cost = -2
 } #4 less bad
 naive_personality = {
