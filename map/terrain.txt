@@ -123,6 +123,7 @@ categories =  {
 			406 4291 #iraq arabi #smeev
 			412 #ahvaz #smeev
 			2798 1222 2799 #upper nile #smeev
+			424 #mugan plain #smeev
 		
 
 			#foffychina
@@ -442,6 +443,8 @@ categories =  {
 			1858 4760 #Germany
 			#foffychina
 			5590 5533 5615 5609 5630 5614
+			4340 #persia #smeev
+			426 #persia #smeev
 		}
 	}
 
