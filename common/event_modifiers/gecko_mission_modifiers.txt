@@ -29,3 +29,7 @@ silk_road_restored = {
 hab_victory_over_ottomans = {
 	infantry_power = 0.1
 }
+
+hun_bulwark_of_christianity = {
+	land_morale = 0.1
+}
