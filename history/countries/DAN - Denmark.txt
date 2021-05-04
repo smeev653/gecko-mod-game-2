@@ -6,6 +6,7 @@ technology_group = western
 historical_friend = NOR
 capital = 12 #Sjaelland
 elector = yes
+add_accepted_culture = norwegian
 
 change_estate_land_share = {
 	estate = estate_nobles
