@@ -25,3 +25,7 @@ succesful_bid_for_imperial_crown = {
 silk_road_restored = {
 	trade_goods_size_modifier = 0.25
 }
+
+hab_victory_over_ottomans = {
+	infantry_power = 0.1
+}
