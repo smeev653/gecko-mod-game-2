@@ -25,10 +25,10 @@ BUK_ideas = {
 		core_creation = -0.25
 	}
 	PR_BUK1 = {
-		technology_cost = -0.1
-		center_of_trade_upgrade_cost = -0.5
+		technology_cost = -0.05
+		center_of_trade_upgrade_cost = -0.25
 	}
-	the_mantle_of_the_great_khan = {
+	BUK_the_mantle_of_the_great_khan = {
 		land_morale = 0.1
 	}
 	PR_BUK3 = {
