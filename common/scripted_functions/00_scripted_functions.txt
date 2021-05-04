@@ -18,6 +18,14 @@ can_leave_hre_league = {
 }
 
 can_harsh_treatment = {
+	condition = {
+			potential = {
+				ai = yes
+			}
+			allow = {
+				always = no
+			}
+		}
 }
 
 can_reduce_war_exhaustion = {
