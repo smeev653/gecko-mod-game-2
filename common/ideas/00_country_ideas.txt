@@ -1694,8 +1694,8 @@ TIM_ideas = {
 	unleash_the_tiger = {
 		cavalry_power = 0.2
 	}
-	elephant_warfare = {
-		land_attrition = -0.25
+	enforced_tribute = {
+		global_tax_modifier = 0.20
 	}
 	timurid_architecture = {
 		prestige_decay = -0.02
