@@ -537,7 +537,7 @@ emp_hun_bohemia_austria_branch = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 5
+				value = 3
 				OR = {
 					area = moravia_area
 					area = silesia_area
@@ -822,7 +822,7 @@ emp_hun_bulwark_of_christianity_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hun_bulwark_of_christianity
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
