@@ -44,7 +44,7 @@ national_focus = ADM
 		birth_date = 1415.3.10
 		claim = 95
 		adm = 3
-		dip = 4
+		dip = 3
 		mil = 5
 	}
 }
