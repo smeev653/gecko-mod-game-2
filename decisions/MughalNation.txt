@@ -15,6 +15,7 @@ country_decisions = {
 			NOT = { tag = MUG }
 			NOT = { tag = TUR }
 			NOT = { tag = HLR }
+			NOT = { tag = TIM }
 			OR = {
 				NOT = { exists = MUG }
 				ai = no
