@@ -58,4 +58,9 @@
  BUK_the_mantle_of_the_great_khan_desc:0 "The death of the Eponymous founder of our dynasty created a power vacuum that lead to people who should have known better aiming for power. However through marriages we have consolidated our claim to descent from the Great Khan himself, and the Steppe warrior knows whom to follow."
  enforced_tribute:0 "Enforced Tribute"
  enforced_tribute_desc:0 "Through the brutal suppression of various uprisings, the state has developed an efficient tax collection system."
+ gecko_bankrupt_interest:0 "Harsher Terms"
+ gecko_bankrupt_interest_desc:0 "Our recent financial irresponsibility has resulted in our money-lenders forcing harsher repayment terms on us should we ever borrow from them again."
+ gecko.6.t:0 "Harsher Terms"
+ gecko.6.d:0 "Our recent financial irresponsibility has resulted in our money-lenders forcing harsher repayment terms on us should we ever borrow from them again."
+ gecko.6.a:0 "Disaster!"
 

@@ -890,6 +890,9 @@ on_replace_governor = {
 
 # country
 on_bankruptcy = {
+	events = {
+			gecko.6
+		}
 }
 
 # country (country annexing, root = target)

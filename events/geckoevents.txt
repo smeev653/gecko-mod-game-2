@@ -403,24 +403,19 @@ country_event = {
 	}
 }
 
-#country_event = {
-#	id = gecko.6
-#	title = gecko.6.t
-#	desc = gecko.6.d
-#	picture = DEBATE_REPUBLICAN_eventPicture
-#	
-#	major = yes
-#	is_triggered_only = yes
-#
-#	option = {
-#		declare_war_with_cb = {
-#					who = FROM
-#					casus_belli = cb_conquest
-#			}
-#	}
-#
-#	option = {
-#		name = gecko.6.b
-#		add_prestige = 10
-#	}
-#}
+country_event = {
+	id = gecko.6
+	title = gecko.6.t
+	desc = gecko.6.d
+	picture = BANKRUPTCY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gecko.6.a
+		add_country_modifier = {
+				name = "gecko_bankrupt_interest"
+				duration = 7300
+		}
+	}
+}
