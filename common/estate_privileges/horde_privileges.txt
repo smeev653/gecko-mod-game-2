@@ -66,10 +66,10 @@ estate_nomadic_tribes_tribal_host = {
 		}
 	}
 	benefits = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.1
 	}
 	modifier_by_land_ownership = {
-		cavalry_cost = -0.25
+		cavalry_cost = -0.10
 	}
 	ai_will_do = {
 		factor = 10
