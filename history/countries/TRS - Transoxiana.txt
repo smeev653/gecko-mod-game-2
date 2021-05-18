@@ -9,7 +9,7 @@ add_government_reform = tribal_federation
 capital = 454 # Samarkand
 religious_school = hanafi_school
 
-1409.5.13 = {
+1414.1.1 = {
 	monarch = {
 		name = "Ulugh Beg"
 		dynasty = "Timurid"
