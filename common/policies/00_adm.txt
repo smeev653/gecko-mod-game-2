@@ -38,7 +38,7 @@ the_combination_act = {
 }
 
 the_court_of_wards_and_liveries = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = aristocracy_ideas
