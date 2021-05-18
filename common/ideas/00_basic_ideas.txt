@@ -93,20 +93,20 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		possible_mil_policy = 1
+	free_mil_policy = 1
 	}
 	scientific_revolution = {
 		technology_cost = -0.1
 		embracement_cost = -0.1
 	}
 	empiricism = {
-		innovativeness_gain = 1
+		innovativeness_gain = 0.5
 	}
 	patron_of_art  = {
 		prestige_decay = -0.01
 	}
 	dynamic_court = {
-		idea_cost = -0.1
+		idea_cost = -0.05
 	}
 	print_culture = {
 		drill_decay_modifier = -0.1
@@ -303,7 +303,7 @@ offensive_ideas = {
 		artillery_bonus_vs_fort = 1
 	}
 	grand_army = {
-		land_forcelimit_modifier = 0.2
+		land_forcelimit_modifier = 0.33
 	}
 	napoleonic_warfare = {
 		discipline = 0.05
@@ -889,7 +889,7 @@ administrative_ideas = {
 		interest = -0.25
 	}
 	organised_mercenary_recruitment = {
-		expand_administration_cost = -0.75
+		expand_administration_cost = -0.50
 	}
 	administrative_efficiency_idea = {
 		free_policy = 1
