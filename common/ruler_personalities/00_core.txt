@@ -1932,7 +1932,7 @@ fierce_negotiator_personality = {
 		
 	}
 	
-	peace_desire = -10
+	#peace_desire = -10
 	
 	merc_maintenance_modifier = -0.25
 	nation_designer_cost = 2
