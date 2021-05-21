@@ -149,33 +149,12 @@ eng_british_conquest_ire = {
 		}
 		
 		effect = {
-			munster_area = { 
-				add_province_modifier = {
-					name = "eng_irish_revolts"
-					duration = 5475
+			add_country_modifier = {
+				name = "isles_secured"
+				duration = 5475
 				}
-			}
-			connacht_area = { 
-				add_province_modifier = {
-					name = "eng_irish_revolts"
-					duration = 5475
-				}
-			}
-			ulster_area = { 
-				add_province_modifier = {
-					name = "eng_irish_revolts"
-					duration = 5475
-				}
-			}
-			leinster_area = { 
-				add_province_modifier = {
-					name = "eng_irish_revolts"
-					duration = 5475
-				}
-			}
 		}
-	
-	}
+	}	
 }
 
 eng_british_conquest_scotland = {
