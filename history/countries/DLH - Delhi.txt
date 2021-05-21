@@ -18,7 +18,8 @@ religious_school = hanafi_school
 	clear_scripted_personalities = yes
 	add_ruler_personality = babbling_buffoon_personality
 }
-1391.12.25 = {
+
+1439.1.1 = {
 	leader = {
 		name = "Bahlûl Lodi"	
 		type = general
@@ -29,8 +30,6 @@ religious_school = hanafi_school
 		siege = 1 
 	}
 }
-
-leader = { name = "Bahlûl Lodi"		type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 
 #1435.1.1 = {
 #	heir = {
