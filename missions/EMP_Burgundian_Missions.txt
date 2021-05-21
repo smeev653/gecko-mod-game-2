@@ -1885,11 +1885,28 @@ emp_burgundy_5 = {
 		required_missions = { emp_bur_join_the_empire }
 
 		trigger = {
-			is_at_war = no
-			tag = LOT
+					is_at_war = no
+			owns_core_province = 1878
+			owns_core_province = 189
+			num_of_owned_provinces_with = {
+				value = 25 #out of 34
+				is_core = root
+				OR = {
+					area = alsace_area
+					area = lower_rhineland_area
+					area = north_rhine_area
+					area = lorraine_area
+					area = wallonia_area
+					area = brabant_area
+					area = north_brabant_area
+					area = holland_area
+					area = frisia_area
+				}
+			}
 		}
-
 		effect = {
+			country_event = { id = new_flavour_bur.4 }
+		
 			upper_rhineland_area = {
 				limit = {
 					NOT = { is_core = ROOT }
