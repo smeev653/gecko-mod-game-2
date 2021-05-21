@@ -398,8 +398,10 @@ age_of_reformation = {
 	
 		ab_spain_tercio = {
 			allow = {
-				tag = SPA
-				tag = ADU
+				OR = {
+					tag = SPA
+					tag = ADU
+				}
 			}
 			modifier = {
 				shock_damage_received = -0.2
@@ -595,9 +597,11 @@ age_of_absolutism = {
 	
 		ab_france_fire_damage = {
 			allow = {
+			OR = {
 				tag = FRA
 				tag = BUR
 				tag = LOT
+				}
 			}
 			modifier = {
 				infantry_fire = 0.5
@@ -609,8 +613,6 @@ age_of_absolutism = {
 		ab_dutch_anti_corruption = {
 			allow = {
 				tag = NED
-				tag = BUR
-				tag = LOT
 			}
 			modifier = {
 				yearly_corruption = -0.2
@@ -621,8 +623,10 @@ age_of_absolutism = {
 		}	
 		ab_sweden_manpower = {
 			allow = {
+			OR = {
 				tag = SWE
 				tag = SCA
+				}
 			}
 			modifier = {
 				manpower_recovery_speed = 0.35
