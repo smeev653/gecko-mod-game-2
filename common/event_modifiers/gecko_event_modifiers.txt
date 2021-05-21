@@ -90,3 +90,7 @@ the_upper_nile = {
 gecko_bankrupt_interest = {
 	interest = 2.5
 }
+
+adu_popular_appeal = {
+	infantry_power = 0.1
+}
