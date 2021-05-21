@@ -33,3 +33,39 @@ hab_victory_over_ottomans = {
 hun_bulwark_of_christianity = {
 	land_morale = 0.1
 }
+
+isles_secured = {
+	land_morale = 0.1
+}
+
+fra_into_germany = {
+	land_morale = 0.1
+}
+
+grand_armee = {
+	artillery_power = 0.2
+	}
+	
+bur_carolingia = {
+	infantry_power = 0.10
+}
+
+angevin_supremacy = {
+	infantry_power = 0.10
+}
+
+united_scandinavia = {
+	land_morale = 0.10
+}
+
+swedish_empire = {
+	land_morale = 0.10
+}
+
+kaiser_of_europe = {
+	infantry_power = 0.10
+}
+
+third_rome = {
+	land_morale = 0.1
+}

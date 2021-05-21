@@ -117,7 +117,7 @@ merc_black_army_2 = {
 
 # Knights Templar
 merc_knights_templar = {
-	regiments_per_development = 0.01
+	regiments_per_development = 0.065
 	home_province = 379
 	cavalry_weight = 0.5
 	sprites = { westerngfx_sprite_pack }
