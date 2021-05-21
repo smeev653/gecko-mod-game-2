@@ -1553,7 +1553,10 @@ emp_france_missions_4 = {
 	}
 	emp_fra_germany = {
 		icon = interfere_in_germany
-		required_missions = { emp_fra_annex_alsace }
+		required_missions = { 
+		#emp_fra_annex_alsace
+		emp_fra_switzerland
+		}
 		provinces_to_highlight = {
 			NOT = {
 				owned_by = ROOT
@@ -1567,6 +1570,18 @@ emp_france_missions_4 = {
 				is_emperor = yes
 				NOT = { hre_size = 1 }
 			}
+			austria_proper_area = {
+				type = all
+				owned_by = ROOT
+			}
+			inner_austria_area = {
+				type = all
+				owned_by = ROOT
+			}
+			tirol_area = {
+				type = all
+				owned_by = ROOT
+			}
 		}
 		effect = {
 			if = {
@@ -1575,36 +1590,35 @@ emp_france_missions_4 = {
 				}
 				set_government_rank = 3
 			}
-			if = {
-				limit = {
-					exists = PLC
-					
-				}
-				add_casus_belli = {
-					target = PLC
-					type = cb_vassalize_mission
-				}
-			}
-			else_if = {
-				limit = {
-					exists = POL
-				}
-				add_casus_belli = {
-					target = POL
-					type = cb_vassalize_mission
-				}
-			}
-			else = {
-				mazovia_area = {
+			mazovia_area = {
 					limit = {
 						NOT = { is_core = ROOT }
 						NOT = { is_permanent_claim = ROOT }
 					}
 					add_permanent_claim = ROOT
-				}
 			}
+			north_german_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			south_german_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+				add_country_modifier = {
+				name = "grand_armee"
+				duration = -1
+				}	
 		}
+		
 	}
+	
 	emp_fra_poland = {
 		icon = polish_subjects
 		required_missions = { emp_fra_germany }
@@ -1667,11 +1681,6 @@ emp_france_missions_4 = {
 					add_permanent_claim = event_target:duchy_of_warsaw
 				}
 			}
-		add_country_modifier = {
-				name = "grand_armee"
-				duration = -1
-				}	
-		}
 	}
 	emp_fra_russia = {
 		icon = the_russian_campaign
@@ -1835,42 +1844,12 @@ emp_france_missions_5 = {
 			}
 		}
 		trigger = {
-			OR = {
-				has_reform = revolutionary_empire_reform
-				has_reform = revolutionary_republic_reform
-				custom_trigger_tooltip = {
-					tooltip = center_of_revolution.3000.A.tt
-					has_global_flag = no_more_revolutions_ever
-				}
-				any_known_country = {
-					is_revolution_target = yes
-					war_with = ROOT
-					capital_scope = {
-						controlled_by = ROOT
-					}
-				}
-			}
 		}
 		effect = {
-			if = {
-				limit = {
-					OR = {
-						has_reform = revolutionary_empire_reform
-						has_reform = revolutionary_republic_reform
-					}
-				}
-				add_revolutionary_zeal = 25
-				add_country_modifier = {
-					name = "french_revolution_mission"
-					duration = -1
-				}
-			}
-			else = {
 				add_country_modifier = {
 					name = "ger_reactionary_zeal"
 					duration = -1
 				}
-			}
 		}
 	}
 	emp_fra_client_states = {
