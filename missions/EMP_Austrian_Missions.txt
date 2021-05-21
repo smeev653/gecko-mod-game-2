@@ -2437,41 +2437,10 @@ emp_hab_diplo_branch = {
 			}
 		}
 		trigger = {
-			OR = {
-				has_reform = revolutionary_empire_reform
-				has_reform = revolutionary_republic_reform
-				custom_trigger_tooltip = {
-					tooltip = center_of_revolution.3000.A.tt
-					has_global_flag = no_more_revolutions_ever
-				}
-				any_known_country = {
-					is_revolution_target = yes
-					war_with = ROOT
-					capital_scope = {
-						controlled_by = ROOT
-					}
-				}
-			}
 		}
 		effect = {
-			if = {
-				limit = {
-					NOT = { 
-						OR = {
-							has_reform = revolutionary_empire_reform
-							has_reform = revolutionary_republic_reform
-						}
-					}
-				}
-				add_country_modifier = {
-					name = "hab_reactionary_zeal"
-					duration = 7300
-				}
-			}
-			else = {
 				add_mil_power = 300
-			}
-		}
+			}	
 	}
 
 	emp_hab_power_to_habsburg = {
