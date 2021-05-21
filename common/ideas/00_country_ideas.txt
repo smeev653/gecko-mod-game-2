@@ -60,7 +60,7 @@ GER_ideas = {
 	free = yes
 	
 	ger_german_confederation = {
-		global_unrest = -2
+		land_morale = 0.15
 	}
 	ger_german_universities = {
 		technology_cost = -0.1
