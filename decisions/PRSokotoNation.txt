@@ -17,7 +17,14 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			NOT = { exists = PR2 }
-			culture_group = mande
+			OR = {
+				culture_group = mande
+				tag = KON
+				tag = ETH
+				tag = ZAN
+				tag = MOR
+				tag = MAM
+			}
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
