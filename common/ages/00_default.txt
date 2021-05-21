@@ -712,19 +712,8 @@ age_of_revolutions = {
 	abilities = {
 
 		ab_allow_anti_revolutionary_zeal = {
-			modifier = {
-				liberty_desire_from_subject_development = -0.50
-			}
-			ai_will_do = {
-				factor = 15
-				modifier = {
-					factor = 0
-					NOT = {
-						any_subject_country = {
-							liberty_desire = 30
-						}
-					}
-				}
+			rule = {
+				can_bypass_forts = yes
 			}
 		}
 
