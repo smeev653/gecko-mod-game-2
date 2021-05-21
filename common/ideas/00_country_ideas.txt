@@ -2073,7 +2073,7 @@ BOH_ideas = {
 ITA_ideas = {
 	start = {
 		trade_efficiency = 0.20
-		discipline = 0.05
+		reinforce_speed = 0.25
 	}
 	
 	bonus = {
