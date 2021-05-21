@@ -658,21 +658,6 @@ emp_france_missions_2 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					exists = NAP
-					valid_for_personal_unions_trigger = yes
-					NAP = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = NAP
-				}
-			}
-			else = {
 				calabria_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -706,7 +691,6 @@ emp_france_missions_2 = {
 					}
 				}
 			}
-		}
 	}
 	emp_fra_french_claim_to_naples = {
 		icon = mission_monarch_in_throne_room
@@ -724,11 +708,7 @@ emp_france_missions_2 = {
 			}
 		}
 		trigger = {
-			OR = {
-				NAP = {
-					junior_union_with = ROOT
-				}
-				AND = {
+			
 					calabria_area = {
 						type = all
 						country_or_non_sovereign_subject_holds = ROOT
@@ -745,45 +725,9 @@ emp_france_missions_2 = {
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 				}
-			}
-		}
+		
 		effect = {
 			add_prestige = 20
-			hidden_effect = {
-				remove_casus_belli = {
-					type = cb_restore_personal_union
-					target = NAP
-				}
-			}
-			if = {
-				limit = {
-					exists = SPA
-					valid_for_personal_unions_trigger = yes
-					SPA = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = SPA
-				}
-			}
-			else_if = {
-				limit = {
-					exists = CAS
-					valid_for_personal_unions_trigger = yes
-					CAS = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = CAS
-				}
-			}
-			else = {
 				castille_area = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -828,7 +772,7 @@ emp_france_missions_2 = {
 				}
 			}
 		}
-	}
+	
 	emp_fra_spanish_succession = {
 		icon = the_spanish_succession
 		required_missions = { emp_fra_french_claim_to_naples }
@@ -1242,7 +1186,7 @@ emp_france_missions_3 = {
 				limit = {
 					has_dlc = "Cradle of Civilization"
 				}
-				add_army_professionalism = 0.1
+				add_army_professionalism = 0.2
 			}
 			else = {
 				add_army_tradition = 20
@@ -1553,10 +1497,7 @@ emp_france_missions_4 = {
 	}
 	emp_fra_germany = {
 		icon = interfere_in_germany
-		required_missions = { 
-		#emp_fra_annex_alsace
-		emp_fra_switzerland
-		}
+		required_missions = { emp_fra_annex_alsace }
 		provinces_to_highlight = {
 			NOT = {
 				owned_by = ROOT
@@ -1681,7 +1622,8 @@ emp_france_missions_4 = {
 					add_permanent_claim = event_target:duchy_of_warsaw
 				}
 			}
-	}
+		}
+	}	
 	emp_fra_russia = {
 		icon = the_russian_campaign
 		required_missions = { emp_fra_poland }
