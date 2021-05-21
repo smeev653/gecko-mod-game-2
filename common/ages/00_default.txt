@@ -600,7 +600,7 @@ age_of_absolutism = {
 				tag = LOT
 			}
 			modifier = {
-				fire_damage = 0.2
+				infantry_fire = 0.5
 			}
 			ai_will_do = {
 				factor = 100
@@ -794,7 +794,7 @@ age_of_revolutions = {
 				tag = PRU
 			}
 			modifier = {
-				fire_damage_received = -0.2
+				fire_damage_received = -0.35
 			}
 			ai_will_do = {
 				factor = 100
