@@ -1235,7 +1235,7 @@ PER_ideas = {
 	}
 	
 	bonus = {
-		recover_army_morale_speed = 0.05
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -6305,12 +6305,12 @@ KHI_ideas = {
 
 BAH_ideas = {
 	start = {
-		cavalry_power = 0.1
+		cavalry_power = 0.15
 		army_tradition = 0.5
 	}
 
 	bonus = {
-		stability_cost_modifier = -0.1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -6320,7 +6320,7 @@ BAH_ideas = {
 	free = yes		#will be added at load.
 	
 	gharbians = {
-		manpower_recovery_speed = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	legacy_of_gisu_daraz = {
 		religious_unity = 0.25
@@ -13455,7 +13455,7 @@ DLH_ideas = {
 		production_efficiency = 0.15
 	}
 	dlh_grand_trunk = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	dlh_throne_of_india = {
 		discipline = 0.05
@@ -15166,7 +15166,7 @@ SIA_ideas = {
         diplomatic_reputation = 2
     }
     sia_encourage_immigration = {
-        development_cost = -0.1
+        production_efficiency = 0.15
     }
     sia_integrating_the_realm = {
         diplomatic_annexation_cost = -0.2
