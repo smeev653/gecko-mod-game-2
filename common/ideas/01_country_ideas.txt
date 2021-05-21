@@ -49,7 +49,7 @@ BUK_ideas = {
 PR2_ideas = {
     start = {
         global_regiment_cost = -0.10
-        global_manpower_modifier = 0.10
+        global_manpower_modifier = 0.15
     }
     bonus = {
         discipline = 0.05
@@ -76,11 +76,9 @@ PR2_ideas = {
         num_accepted_cultures = 2
     }
     PR2_6 = {
-        monarch_admin_power = 1
+       prestige = 1
     }
     PR2_7 = {
-        yearly_absolutism = 1
-        legitimacy = 1
-		devotion = 1
+        manpower_recovery_speed = 0.15
     }
 }
