@@ -156,11 +156,21 @@ swedish_missions_scandinavia = {
 			}
 		}
 	}
-	swedish_colonialism = {
-		icon = mission_settlers_north_america
+	swedish_empire = {
+		icon = shift_the_balance
 		required_missions = {
 			vassalize_norway_swe
 			swedish_pommerania	
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = jutland_area
+				area = denmark_area
+				area = holstein_area
+			}
+			NOT = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		trigger = {
 			jutland_area = {
@@ -303,6 +313,13 @@ swedish_missions_baltic = {
 				}
 				add_permanent_claim = ROOT
 			}
+			karelia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 		}
 	}
 	swedish_pommerania = {
@@ -313,6 +330,7 @@ swedish_missions_baltic = {
 				area = vorpommern_area
 				area = hinter_pommern_area
 				area = mecklenburg_area
+				area = karelia_area
 			}
 			NOT = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -331,18 +349,15 @@ swedish_missions_baltic = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
+			karelia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "swe_pommerania_conquered"
 				duration = 5475
-			}
-			karelia_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_claim = ROOT }
-				}
-				add_claim = ROOT
 			}
 			weser_area = {
 				limit = {
