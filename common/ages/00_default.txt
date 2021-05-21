@@ -87,7 +87,7 @@ age_of_discovery = {
 			allow = {
 				NOT = { religion_group = christian }
 			}
-			vassal = 5
+			num_of_subjects = 5
 		}		
 	
 		obj_two_continents = {
@@ -112,7 +112,7 @@ age_of_discovery = {
 				tag = HUN
 			}
 			modifier = {
-				defensiveness = 0.35
+				defensiveness = 0.25
 			}
 			ai_will_do = {
 				factor = 10
@@ -183,7 +183,10 @@ age_of_discovery = {
 		
 		ab_ottoman_siege_ability = {
 			allow = {
-				tag = TUR
+				OR = {
+						tag = TUR
+						tag = RUM
+					}	
 			}
 			modifier = {
 				siege_ability = 0.33
@@ -228,10 +231,12 @@ age_of_discovery = {
 		ab_venice_ship_trade = {
 		
 			allow = {
-				tag = VEN
-				tag = MLO
-				tag = PAP
-			}
+				OR = {
+					tag = VEN
+					tag = MLO
+					tag = PAP
+				}
+			}	
 			modifier = {
 				mercenary_discipline = 0.05
 				mercenary_manpower = 0.25
