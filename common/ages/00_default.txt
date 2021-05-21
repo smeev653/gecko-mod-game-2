@@ -271,7 +271,6 @@ age_of_reformation = {
 		
 		obj_humanism_religious = {
 			OR = {
-				full_idea_group = humanist_ideas
 				full_idea_group = religious_ideas
 			}
 		}
@@ -308,15 +307,15 @@ age_of_reformation = {
 					trade_goods = silk
 					value = yes
 				}
-			
+				trading_bonus = {
+					trade_goods = cotton
+					value = yes
+				}
 			}
-		
-		
 		}
-		
 		obj_unify_culture = {	
 			is_subject = no
-			has_unified_culture_group = yes
+			development = 1000
 		}
 	}	
 	
