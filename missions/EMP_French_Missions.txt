@@ -1667,6 +1667,10 @@ emp_france_missions_4 = {
 					add_permanent_claim = event_target:duchy_of_warsaw
 				}
 			}
+		add_country_modifier = {
+				name = "grand_armee"
+				duration = -1
+				}	
 		}
 	}
 	emp_fra_russia = {
