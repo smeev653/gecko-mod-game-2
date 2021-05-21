@@ -196,7 +196,7 @@ tur_conquerors_of_the_near_east = {
 					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 		}
 	}
@@ -209,7 +209,6 @@ tur_conquerors_of_the_near_east = {
 		ai_priority = {
 			factor = 1
 		}
-		completed_by = 1542.1.1
 		provinces_to_highlight = {
 			area = alfold_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -230,24 +229,79 @@ tur_conquerors_of_the_near_east = {
 					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			transdanubia_area = {
 				limit = {
 					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 			croatia_area = {
 				limit = {
 					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
+			}
+			slavonia_area = {
+				limit = {
+					NOT = { is_claim = ROOT	}
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	}
+	conquer_habsburgs = {
+		icon = mission_eastern_european_city
+		required_missions = {
+		conquer_hungary
+		vassalize_transylvania 
+		}
+		ai_weight = {
+			factor = 2
+		}
+		ai_priority = {
+			factor = 1
+		}
+		provinces_to_highlight = {
+			area = austria_proper_area
+			area = transdanubia_area
+			area = croatia_area
+			area = slavonia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			austria_proper_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			transdanubia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			croatia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			slavonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			slovakia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "kaiser_of_europe"
+				duration = -1
+			}
+		}
+	}	
 }
 
 tur_eastern_balkans = {
@@ -340,7 +394,7 @@ tur_eastern_balkans = {
 					NOT = { is_claim = ROOT	}
 					NOT = { is_core = ROOT	}
 				}
-				add_claim = ROOT
+				add_permanent_claim = ROOT
 			}
 		}
 	}
