@@ -242,7 +242,7 @@ WUU_ideas = { #Wu
 		global_trade_power = 0.1
 	}
 	WUU_3 = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	WUU_4 = {
 		mercenary_manpower = 0.33
