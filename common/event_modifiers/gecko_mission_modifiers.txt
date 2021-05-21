@@ -67,5 +67,5 @@ kaiser_of_europe = {
 }
 
 third_rome = {
-	land_morale = 0.1
+	land_forcelimit_modifier = 0.33
 }
