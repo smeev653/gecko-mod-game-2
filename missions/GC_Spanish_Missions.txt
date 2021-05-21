@@ -1256,7 +1256,7 @@ gc_spain_4 = {
 				area = valencia_area
 				area = catalonia_area
 				area = aragon_area
-				area = western_mediterrenean_area
+				area = corsica_sardinia_area
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -1274,7 +1274,7 @@ gc_spain_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			western_mediterrenean_area = {
+			corsica_sardinia_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}

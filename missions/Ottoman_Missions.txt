@@ -267,10 +267,13 @@ tur_conquerors_of_the_near_east = {
 			factor = 1
 		}
 		provinces_to_highlight = {
-			area = austria_proper_area
-			area = transdanubia_area
-			area = croatia_area
-			area = slavonia_area
+			OR = {
+				area = austria_proper_area
+				area = transdanubia_area
+				area = croatia_area
+				area = slavonia_area
+				area = slovakia_area
+			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
