@@ -9,6 +9,7 @@ unlock_cult = nyame_cult
 capital = 1133	# Gao
 religious_school = maliki_school
 
+
 1368.1.1 = {
 	monarch = {
 		name = "Yuanzhang" # Hongwu Emperor
