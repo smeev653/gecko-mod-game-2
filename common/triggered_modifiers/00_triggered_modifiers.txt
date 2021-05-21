@@ -261,11 +261,11 @@ custodian_of_the_two_holy_mosques = {
 
 	trigger = {
 		is_free_or_tributary_trigger = yes
-		owns_or_vassal_of = 385
-		owns_or_vassal_of = 384
+		owns = 385
+		owns = 384
 	}
 
-	legitimacy = 0.5
+	land_morale = 0.05
 	missionaries = 1
 }
 ###########################################
@@ -776,7 +776,7 @@ great_peasants_war_triggered_modifier = {
 		is_part_of_hre = yes
 		NOT = { has_reform = peasants_republic }
 	}
-	global_unrest = 6
+	global_unrest = 1
 }
 
 great_peasants_war_concessions_triggered_modifier = {
