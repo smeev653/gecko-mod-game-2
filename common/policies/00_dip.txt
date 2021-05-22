@@ -1074,7 +1074,7 @@ the_foreign_support_act = {
 #}
 
 black_chamber_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = spy_ideas
@@ -1087,7 +1087,7 @@ black_chamber_act = {
 	}
 	
 	artillery_cost = -0.20
-	artillery_bonus_vs_fort = 1
+	artillery_fire = 0.33
 
 	ai_will_do = {
 		factor = 0.6

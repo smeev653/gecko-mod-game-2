@@ -102,7 +102,7 @@ formalized_measures = {
 		full_idea_group = economic_ideas
 	}	
 
-	infantry_fire = 0.25
+	infantry_fire = 0.33
 
 	ai_will_do = {
 		factor = 1
@@ -479,7 +479,7 @@ the_pioneer_policy = {
 
 
 land_inheritance_act = {
-	monarch_power = ADM
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = administrative_ideas
@@ -491,7 +491,7 @@ land_inheritance_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	advisor_cost = -0.1
+	discipline = 0.03
 	production_efficiency = 0.1
 	
 	ai_will_do = {
@@ -1124,7 +1124,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	cavalry_fire = 0.25
+	cavalry_fire = 0.33
 	
 	ai_will_do = {
 		factor = 0.8

@@ -283,14 +283,14 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		recover_army_morale_speed = 0.1
+		recover_army_morale_speed = 0.25
 	}
 
 	bayonet_leaders = {
 		leader_land_shock = 1
 	}
 	national_conscripts = {
-		movement_speed = 0.1
+		movement_speed = 0.20
 	}
 	superior_firepower = {
 		leader_land_fire = 1
