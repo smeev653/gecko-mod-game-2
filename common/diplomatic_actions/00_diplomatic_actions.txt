@@ -359,7 +359,7 @@ form_coalition = {
 
 allianceaction = {
 	condition = {
-	tooltip = h_tooltip_cn_ally
+		tooltip = h_tooltip_cn_ally
 		potential = {
 			is_colonial_nation = no
 		}

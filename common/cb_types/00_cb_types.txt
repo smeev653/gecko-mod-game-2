@@ -161,11 +161,53 @@ cb_border_war = {
 }
 
 # Trade War (from events and others)
+cb_trade_war_triggered = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 24
+
+	war_goal = superiority_trade
+
+	attacker_disabled_po = {
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_become_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
+}
+
+cb_trade_conflict = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 24
+
+	war_goal = blockade_ports
+
+	attacker_disabled_po = {
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_form_personal_union
+		po_become_tributary_state
+		po_transfer_vassals
+	}
+}
 
 cb_trade_league_conflict = {
 	valid_for_subject = no
 
 	prerequisites = {
+		always = no
 		is_trade_league_leader = yes
 		can_justify_trade_conflict = FROM
 	}
@@ -536,7 +578,7 @@ cb_revolutionary = {
 		is_neighbor_of = FROM
 		cb_on_government_enemies = yes
 		NOT = {
-			has_reform = pope_reform
+			has_reform = papacy_reform
 			has_reform = steppe_horde
 			has_reform = dutch_republic
 			has_reform = celestial_empire
@@ -549,7 +591,7 @@ cb_revolutionary = {
 		}
 		FROM = {
 			NOT = {
-				has_reform = pope_reform
+				has_reform = papacy_reform
 				has_reform = steppe_horde
 				has_reform = dutch_republic
 				has_reform = celestial_empire
@@ -742,6 +784,38 @@ cb_excommunication = {
 }
 
 # Trade War
+cb_trade_war = {
+
+	prerequisites = {
+	always = no
+	
+		OR = {
+			AND = {
+				trade_embargo_by = FROM
+				NOT = { FROM = { trade_embargo_by = ROOT } }
+			}
+			AND = {
+				has_government_attribute = is_merchant_republic
+				FROM = { has_government_attribute = is_merchant_republic }
+			}
+		}
+		is_revolutionary = no
+	}
+
+	war_goal = superiority_trade_mutual
+
+	attacker_disabled_po = {
+		po_demand_provinces
+		po_revoke_cores
+		po_release_vassals
+		po_release_annexed
+		po_return_cores
+		po_become_vassal
+		po_become_tributary_state
+		po_form_personal_union
+		po_transfer_vassals
+	}
+}
 
 
 # Trade War for embargoed Trade League members

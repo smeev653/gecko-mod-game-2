@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = feudalism_reform
 technology_group = indian
 primary_culture = panjabi
-religion = hindu
+religion = sunni
 capital = 510 # Sirhind
 
 1414.1.1 = {

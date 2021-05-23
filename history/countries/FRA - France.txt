@@ -88,7 +88,7 @@ change_estate_land_share = {
 	}	
 	clear_scripted_personalities = yes
 	add_ruler_personality = careful_personality
-	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = inspiring_leader_personality
 	
 	queen = {
         country_of_origin = PRO
