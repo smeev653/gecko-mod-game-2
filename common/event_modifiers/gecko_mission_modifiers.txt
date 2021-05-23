@@ -69,3 +69,7 @@ kaiser_of_europe = {
 third_rome = {
 	land_forcelimit_modifier = 0.33
 }
+
+mor_barbary_pirate_coast = {
+	production_efficiency = 0.2
+}
