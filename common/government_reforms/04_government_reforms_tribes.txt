@@ -37,7 +37,7 @@ steppe_horde = {
 		loot_amount = 0.50
 		global_institution_spread = -0.15
 		reinforce_cost_modifier = -0.25
-		cavalry_power = 0.1
+		#cavalry_power = 0.1
 		movement_speed = 0.2
 		years_of_nationalism = -5
 	}

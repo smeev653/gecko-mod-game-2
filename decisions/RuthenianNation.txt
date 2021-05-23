@@ -3,7 +3,7 @@ country_decisions = {
 	ruthenian_nation = {
 		major = yes
 		potential = {
-			tag = CRI
+			tag = ULM
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_ruthenia_flag }

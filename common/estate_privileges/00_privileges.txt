@@ -1303,6 +1303,14 @@ estate_church_clerical_ministers = {
 	icon = privilege_recruit_minister
 	max_absolutism = -5
 	influence = 0.10
+	can_select = {
+		NOT = { 
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			} 
+		}
+	}	
 	conditional_modifier = {
 		trigger = {
 			if = {
@@ -1442,7 +1450,12 @@ estate_church_negative_piety_privilege = {
 		religion_group = muslim
 	}
 	can_select = {
-		NOT = { has_estate_privilege = estate_church_clerical_ministers }
+		NOT = { 
+			num_of_estate_privileges = {
+			estate = estate_church
+			value = 4
+			} 
+		}
 	}
 	penalties = {
 	}
