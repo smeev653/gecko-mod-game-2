@@ -3664,10 +3664,9 @@ estate_nomadic_tribes_primacy_to_the_bannermen = {
 		}
 	}
 	penalties = {
-		amount_of_banners = -0.25
 	}
 	benefits = {
-		land_morale = 0.1
+		amount_of_banners = 0.1
 	}
 	ai_will_do = {
 		factor = 1
