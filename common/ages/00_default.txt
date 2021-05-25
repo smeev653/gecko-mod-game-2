@@ -107,17 +107,7 @@ age_of_discovery = {
 	
 	
 	abilities = {
-		ab_allow_feudal_de_jure_law = {
-			allow = {
-				tag = HUN
-			}
-			modifier = {
-				defensiveness = 0.25
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
+		
 		
 		ab_justified_wars = {
 			modifier = {
@@ -243,6 +233,30 @@ age_of_discovery = {
 			}
 			ai_will_do = {
 				factor = 100
+			}
+		}
+		songhai_timbuktu_university = {
+		
+			allow = {
+					tag = SON
+				}	
+				modifier = {
+					technology_cost = -0.15
+				}
+				ai_will_do = {
+					factor = 100
+				}
+		}
+		
+		ab_allow_feudal_de_jure_law = {
+			allow = {
+				tag = HUN
+			}
+			modifier = {
+				defensiveness = 0.25
+			}
+			ai_will_do = {
+				factor = 10
 			}
 		}
 	}
@@ -454,7 +468,19 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
-	
+		
+		crimean_raids = {
+		
+			allow = {
+					tag = CRI
+				}	
+				modifier = {
+					raze_power_gain = 0.5
+				}
+				ai_will_do = {
+					factor = 100
+				}
+		}
 	}
 	
 	
