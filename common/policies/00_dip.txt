@@ -882,8 +882,8 @@ the_integrated_administration_act = {
 		full_idea_group = quality_ideas
 	}	
 	
-	discipline = 0.03
-	defensiveness = 0.10
+	land_morale = 0.05
+	vassal_forcelimit_bonus = 1
 	
 	ai_will_do = {
 		factor = 1

@@ -786,7 +786,7 @@ foreign_conscription_centers = {
 }
 
 guerilla_warfare = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = influence_ideas
@@ -798,8 +798,8 @@ guerilla_warfare = {
 		full_idea_group = quantity_ideas
 	}	
 	
-	hostile_attrition = 1
-	global_garrison_growth = 0.1
+	global_manpower_modifier = 0.2
+	vassal_forcelimit_bonus = 1
 	
 	ai_will_do = {
 		factor = 0.8
@@ -1009,7 +1009,7 @@ trade_kontor_network = {
 }
 
 deserteur_act = {
-	monarch_power = DIP
+	monarch_power = MIL
 
 	potential = {
 		has_idea_group = spy_ideas
@@ -1021,7 +1021,8 @@ deserteur_act = {
 		full_idea_group = quality_ideas
 	}
 
-	army_tradition_decay = -0.01
+	discipline = 0.03
+	siege_ability = 0.1
 	
 	ai_will_do = {
 		factor = 0.75

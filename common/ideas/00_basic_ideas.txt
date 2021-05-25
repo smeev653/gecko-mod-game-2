@@ -192,7 +192,7 @@ spy_ideas = {
 	category = DIP
 
 	bonus = {
-		merchants = 1
+		 possible_policy = 1
 	}
 
 	efficient_spies = {
@@ -200,11 +200,13 @@ spy_ideas = {
 		advisor_cost = -0.15
 	}	
 	state_propaganda = {
-		ae_impact = -0.2
+		leader_cost = -0.2
 		curia_powers_cost = -0.25
 		church_power_modifier = 0.2
 		yearly_harmony = 1
 		devotion = 0.5
+		monthly_piety = -0.02
+		
 	}
 	vetting = {
 		trade_steering = 0.33
@@ -212,7 +214,7 @@ spy_ideas = {
 	}
 	agent_training = {
 		power_projection_from_insults = 1
-		prestige = 0.75
+		prestige = 1
 	}
 	claim_fabrication = {
 		 embargo_efficiency = 0.33

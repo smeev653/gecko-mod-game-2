@@ -755,8 +755,7 @@ foreign_advisors = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	technology_cost = -0.05
-	ae_impact = -0.2
+	technology_cost = -0.1
 	
 	ai_will_do = {
 		factor = 1
