@@ -90,7 +90,7 @@ estate_qizilbash_levies = {
 		}
 	}	
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }
 }
 
@@ -117,9 +117,9 @@ estate_qizilbash_establish_qurchis = {
 	benefits = {
 		shock_damage_received = -0.10
 	}
-	ai_will_do = {
-		factor = 0
-	}
+	ai_will_do = {					
+        factor = 1000                               
+        }
 }
 
 
@@ -156,9 +156,9 @@ estate_qizilbash_officer_corps = {
 		custom_tooltip = estate_qizilbash_officer_corps_revoke_effect_tooltip
 		remove_country_modifier = estate_qizilbash_officers_modifier
 		}
-	ai_will_do = {
-		factor = 0
-	}
+	ai_will_do = {					
+        factor = 1000                               
+        }
 }
 
 estate_qizilbash_disciplined_enforced = {
@@ -183,7 +183,7 @@ estate_qizilbash_disciplined_enforced = {
 	benefits = {
 		discipline = 0.025
 	}
-	ai_will_do = {
-		factor = 0
-	}
+	ai_will_do = {					
+        factor = 1000                               
+        }
 }

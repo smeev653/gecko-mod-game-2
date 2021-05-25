@@ -30,7 +30,7 @@ estate_janissary_phase_base = {
 		remove_country_modifier = estate_janissary_phase_modifier
 		}		
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }			
 }
 
@@ -70,7 +70,7 @@ estate_janissary_upgrade_weaponry = {
 		remove_country_modifier = estate_janissary_weaponry_modifier
 		}		
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }			
 }
 
@@ -146,6 +146,6 @@ estate_janissary_auxiliaries = {
 		remove_country_modifier = estate_janissary_auxiliaries_modifier
 		}		
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }			
 }

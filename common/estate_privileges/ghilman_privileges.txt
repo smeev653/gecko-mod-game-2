@@ -61,7 +61,7 @@ estate_ghilman_military_corps = {
 		qizilbash_influence_modifier = -0.05
 		}			
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }			
 }
 
@@ -102,6 +102,6 @@ estate_ghilman_morale = {
 		qizilbash_influence_modifier = -0.05
 		}			
 	ai_will_do = {					
-        factor = 0                               
+        factor = 1000                               
         }			
 }
