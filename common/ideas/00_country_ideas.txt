@@ -1489,6 +1489,7 @@ MAM_ideas = {
 	}
 	monuments_to_greatness = {
 		prestige = 1
+		development_cost = -0.05
 	}
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.2
@@ -13430,7 +13431,7 @@ DLH_ideas = {
 	}
 	
 	bonus = {
-		num_accepted_cultures = 1
+		development_cost = -0.1
 	}
 	
 	trigger = {
@@ -13438,24 +13439,24 @@ DLH_ideas = {
 	}
 	free = yes
 	
-	
-	dlh_reconquest = {
-		land_morale = 0.1
-	}
-	dlh_afghan_nobility = {
-		army_tradition = 0.5
-	}
-	dlh_suppress_rebellion = {
-		global_unrest = -2
-	}
 	dlh_expansionism = {
 		core_creation = -0.20
+	}
+	dlh_reconquest = {
+		land_morale = 0.1
 	}
 	dlh_textile_innovation = {
 		production_efficiency = 0.15
 	}
+	dlh_afghan_nobility = {
+		infantry_power = 0.1
+	}
+	
 	dlh_grand_trunk = {
-		development_cost = -0.05
+		global_trade_goods_size_modifier = 0.10
+	}
+	dlh_suppress_rebellion = {
+		global_unrest = -2
 	}
 	dlh_throne_of_india = {
 		discipline = 0.05
@@ -13633,7 +13634,7 @@ MER_ideas = {
 		defensiveness = 0.15
 	}
 	mer_city_of_lakes = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	mer_recall_purbias = {
 		global_manpower_modifier = 0.15
@@ -13668,16 +13669,17 @@ BNG_ideas = {
 		army_tradition = 0.5
 	}
 	bng_clearing_the_delta = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	bng_attract_sufis = {
 		idea_cost = -0.1
+		land_morale = 0.1
 	}
 	bng_conquest_of_the_gangetic_plain = {
 		leader_land_shock = 1
 	}
 	bng_rupees = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
 	bng_bengali_industrialization = {
 		global_trade_goods_size_modifier = 0.1
