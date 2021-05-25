@@ -5,7 +5,7 @@ religion = sunni
 technology_group = indian
 capital = 522	# Delhi
 fixed_capital = 522 # Cannot move capital away from this province & no power cost to move to it
-religious_school = hanafi_school
+religious_school = maliki_school
 
 1435.1.1 = {
 	monarch = {
@@ -15,6 +15,10 @@ religious_school = hanafi_school
 		DIP = 5
 		MIL = 6
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = industrious_personalit
 }	
 
 1439.1.1 = {
