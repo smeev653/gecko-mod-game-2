@@ -586,8 +586,7 @@ age_of_absolutism = {
 
 		ab_yearly_absolutism = {
 			modifier = {
-				yearly_absolutism = 1
-				max_absolutism = 150
+				yearly_absolutism = 5
 			}
 			ai_will_do = {
 				factor = 100
