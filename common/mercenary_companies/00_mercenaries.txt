@@ -233,6 +233,7 @@ merc_reislaufer = {
     home_province = 165 # 
 	artillery_weight = 0.3
 	sprites = { westerngfx_sprite_pack }
+	cost_modifier = 1.2
     trigger = {
 		OR = {
 			capital_scope = { 
@@ -305,7 +306,7 @@ merc_routiers = {
 
 # Routiers/Bascoli ( Gascony, Renaissance?)
 merc_bascoli = {
-    regiments_per_development = 0.03
+    regiments_per_development = 0.05
     home_province = 173
 	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
     trigger = {
@@ -319,6 +320,9 @@ merc_bascoli = {
 			}
 		}
 		current_age = age_of_discovery
+	}
+	modifier = { 
+		land_morale = 0.1
 	}
 }
 	
@@ -422,6 +426,7 @@ merc_gallowglasses = {
 	artillery_weight = 0.3
 	cavalry_cap = 2
     home_province = 4380
+	cost_modifier = 1.2
 	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
     trigger = {
 		OR = {
@@ -454,6 +459,7 @@ merc_redshanks = {
     regiments_per_development = 0.03
     home_province = 4364
 	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+	cost_modifier = 1.2
     trigger = { 
 		OR = {
 			capital_scope = { region = british_isles_region }
@@ -1441,7 +1447,7 @@ merc_almogavars = {
 }
 
 merc_moorish_battalion = {
-    regiments_per_development = 0.03
+    regiments_per_development = 0.1
     home_province = 343 # Fez
 	sprites = { dlc058_mor_sprite_pack muslimgfx_sprite_pack }
 	trigger = { 
@@ -1451,9 +1457,29 @@ merc_moorish_battalion = {
 			has_country_modifier = glut_of_mercs
 		}
 	}
-    modifier = { }
+    modifier = {
+		land_morale = 0.1
+	}
 }
 
+merc_maghreb_raiders = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.8
+    #artillery_weight = 0.1
+	#cavalry_cap = 6
+    home_province = 341 # Tunis
+	sprites = { dlc058_mor_sprite_pack muslimgfx_sprite_pack }
+	trigger = { 
+		OR = {
+			capital_scope = { region = maghreb_region }
+			has_country_modifier = mercenaries_to_the_standard
+			has_country_modifier = glut_of_mercs
+		}
+	}
+    modifier = {
+		cavalry_power = 0.1
+	}
+}
 merc_kutai_company = {
     regiments_per_development = 0.03
 	home_province = 638 # Kutai
@@ -1906,14 +1932,17 @@ merc_gascon_musket_company = {
 }
 
 merc_tyrolean_guard = {
-    regiments_per_development = 0.025
-    home_province = 4758
+    regiments_per_development = 0.1
+    home_province = 134
+	cost_modifier = 1.25
 	sprites = { dlc053_hab_sprite_pack dlc029_hab_sprite_pack hab_base_sprite_pack }
     trigger = {
-		capital_scope = { region = south_german_region }
-		NOT = { current_age = age_of_discovery }
+		is_emperor = yes
 	}
-	modifier = { }
+	modifier = { 
+	infantry_power = 0.1
+	land_morale = 0.05
+	}
 }
 
 merc_mongol_banner = {
