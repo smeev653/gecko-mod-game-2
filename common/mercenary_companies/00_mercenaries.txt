@@ -249,7 +249,7 @@ merc_reislaufer = {
 		}
 	}
 	modifier = {
-        shock_damage_received = -0.05
+        shock_damage_received = -0.15
 	}
 }
 
@@ -444,8 +444,8 @@ merc_gallowglasses = {
 		}
 	}
 	modifier = {
-        discipline = 0.025
-        shock_damage_received = -0.05
+        discipline = 0.05
+        shock_damage_received = -0.10
 	}
 }
 
@@ -468,7 +468,7 @@ merc_redshanks = {
 		}
 	}
 	modifier = {
-		shock_damage = 0.05
+		shock_damage = 0.15
 	}
 }
 
@@ -584,12 +584,12 @@ merc_flemish_company = {
 		}
 	}
 	modifier = {
-        infantry_power = 0.05
+        infantry_power = 0.10
 	}
 }
 
 merc_forlorn_hope = {
-    regiments_per_development = 0.025
+    regiments_per_development = 0.05
     home_province = 237 # Oxford
 	cost_modifier = 1.2
 	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
