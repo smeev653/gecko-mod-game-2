@@ -352,7 +352,7 @@ age_of_reformation = {
 		
 		ab_warscore_vs_religion = {
 			modifier = {
-				warscore_cost_vs_other_religion = -0.25
+				province_warscore_cost = -0.2
 			}
 			ai_will_do = {
 				factor = 10
@@ -368,8 +368,8 @@ age_of_reformation = {
 			}
 		}
 		ab_ship_power_propagation = {
-			modifier = {
-				ship_power_propagation = 0.2
+			rule = {
+				attack_bonus_in_capital_terrain = yes
 			}
 			ai_will_do = {
 				factor = 10
@@ -442,10 +442,13 @@ age_of_reformation = {
 		
 		ab_persia_reinforce = {
 			allow = {
+			 OR = {
 				tag = PER
+				tag = ARB
+				}
 			}
 			modifier = {
-				reinforce_cost_modifier = -0.3
+				reinforce_cost_modifier = -0.35
 			}
 			ai_will_do = {
 				factor = 100
@@ -527,9 +530,8 @@ age_of_absolutism = {
 	abilities = {
 	
 		ab_allow_edict_of_absolutism = {
-			effect = {
-				custom_tooltip = edict_of_absolutism_tt
-				set_country_flag = edict_of_absolutism
+			modifier = {
+				years_of_nationalism = -15
 			}
 			ai_will_do = {
 				factor = 10
@@ -538,7 +540,7 @@ age_of_absolutism = {
 
 		ab_rival_change = {
 			modifier = {
-				rival_change_cost = -0.5
+				free_leader_pool = 3
 			}
 			ai_will_do = {
 				factor = 0
@@ -547,7 +549,7 @@ age_of_absolutism = {
 
 		ab_rival_border_fort = {
 			modifier = {
-				rival_border_fort_maintenance = -1.0
+				fort_maintenance_modifier = -0.2
 			}
 			ai_will_do = {
 				factor = 10
@@ -557,7 +559,7 @@ age_of_absolutism = {
 
 		ab_autonomy = {
 			modifier = {
-				autonomy_change_time = -0.5
+				global_autonomy = -0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -566,8 +568,8 @@ age_of_absolutism = {
 
 
 		ab_harsh_treatment = {
-			modifier = {
-				harsh_treatment_cost = -0.5
+			rule = {
+				force_march_free = yes
 			}
 			ai_will_do = {
 				factor = 10
@@ -577,7 +579,7 @@ age_of_absolutism = {
 	
 		ab_adm_efficiency = {
 			modifier = {
-				administrative_efficiency = 0.05
+				administrative_efficiency = 0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -611,10 +613,18 @@ age_of_absolutism = {
 		}
 		ab_dutch_anti_corruption = {
 			allow = {
-				tag = NED
+				OR = {
+					tag = DLH
+					tag = BNG
+					tag = MER
+					tag = BAH
+					tag = VIJ
+					tag = HIN
+					tag = BHA
+				}	
 			}
 			modifier = {
-				yearly_corruption = -0.2
+				artillery_power = 0.15
 			}
 			ai_will_do = {
 				factor = 100
