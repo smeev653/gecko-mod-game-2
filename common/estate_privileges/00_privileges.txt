@@ -2732,7 +2732,6 @@ estate_jains_diplomacy = {
 	max_absolutism = -5
 	loyalty = -0.05
 	is_valid = {
-		NOT = { religion_group = muslim }
 	}
 	can_select = {
 		NOT = {
