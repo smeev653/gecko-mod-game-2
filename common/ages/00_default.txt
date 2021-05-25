@@ -557,8 +557,8 @@ age_of_absolutism = {
 	abilities = {
 	
 		ab_autonomy = {
-			rule = {
-				attack_bonus_in_capital_terrain = yes
+			modifier = {
+				global_autonomy = -0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -750,8 +750,8 @@ age_of_revolutions = {
 	abilities = {
 
 		ab_allow_anti_revolutionary_zeal = {
-			rule = {
-				attack_bonus_in_capital_terrain = yes
+			modifier = {
+				global_unrest = -6
 			}
 		}
 

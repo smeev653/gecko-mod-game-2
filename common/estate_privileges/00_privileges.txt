@@ -2806,7 +2806,7 @@ estate_jains_clerical_class = {
 	}
 	benefits = {
 		state_maintenance_modifier = -0.25
-		development_cost = -0.05
+		development_cost = -0.1
 	}
 	ai_will_do = {
 		factor = 0
