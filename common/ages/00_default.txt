@@ -108,6 +108,14 @@ age_of_discovery = {
 	
 	abilities = {
 		
+		ab_attack_bonus_in_capital_terrain = {
+		rule = {
+			attack_bonus_in_capital_terrain = yes
+		}
+			ai_will_do = {
+				factor = 10
+			}
+		}
 		
 		ab_justified_wars = {
 			modifier = {
@@ -161,15 +169,7 @@ age_of_discovery = {
 				}
 			}
 		}
-		
-		ab_attack_bonus_in_capital_terrain = {
-			rule = {
-				attack_bonus_in_capital_terrain = yes
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
+	
 		
 		ab_ottoman_siege_ability = {
 			allow = {
@@ -336,6 +336,15 @@ age_of_reformation = {
 	
 	abilities = {
 	
+		ab_ship_power_propagation = {
+				rule = {
+					attack_bonus_in_capital_terrain = yes
+				}
+				ai_will_do = {
+					factor = 10
+				}
+			}
+			
 		ab_allow_religion_enforced = {
 			effect = {
 				custom_tooltip = religion_enforced_edict
@@ -376,14 +385,6 @@ age_of_reformation = {
 		ab_mercenary_discipline = {
 			modifier = {
 				mercenary_discipline = 0.05
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-		ab_ship_power_propagation = {
-			rule = {
-				attack_bonus_in_capital_terrain = yes
 			}
 			ai_will_do = {
 				factor = 10
@@ -555,6 +556,15 @@ age_of_absolutism = {
 	
 	abilities = {
 	
+		ab_autonomy = {
+			rule = {
+				attack_bonus_in_capital_terrain = yes
+			}
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	
 		ab_allow_edict_of_absolutism = {
 			modifier = {
 				years_of_nationalism = -15
@@ -581,17 +591,6 @@ age_of_absolutism = {
 				factor = 10
 			}
 		}
-
-
-		ab_autonomy = {
-			modifier = {
-				global_autonomy = -0.1
-			}
-			ai_will_do = {
-				factor = 10
-			}
-		}
-
 
 		ab_harsh_treatment = {
 			rule = {
@@ -752,7 +751,7 @@ age_of_revolutions = {
 
 		ab_allow_anti_revolutionary_zeal = {
 			rule = {
-				can_bypass_forts = yes
+				attack_bonus_in_capital_terrain = yes
 			}
 		}
 
