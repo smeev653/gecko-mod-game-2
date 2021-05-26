@@ -10,7 +10,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2982;126;sea;1305;-1;-1;-1;-1;Siracusa-Malta 
 115;1247;sea;1298;-1;-1;-1;-1;Pisa-Corsica 
 320;163;sea;1319;-1;-1;-1;-1;Rhodes-Crete 
-145;163;sea;1319;-1;-1;-1;-1;Morea-Crete 
+145;163;sea;1319;-1;-1;-1;-1;Morea-Crete
+484;2536;sea;1505;-1;-1;-1;-1;Havana-Mayaimi
+982;981;sea;1491;-1;-1;-1;-1;Unamakik-Taqamkuk 
 235;87;sea;1271;-1;-1;-1;-1;Kent-Calais
 4624;2652;sea;1512;-1;-1;-1;-1;Guane-Ecab 
 493;1881;sea;1523;-1;-1;-1;-1;St. Martin-St. Thomas 
