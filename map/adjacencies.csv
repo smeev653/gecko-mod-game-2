@@ -11,10 +11,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 115;1247;sea;1298;-1;-1;-1;-1;Pisa-Corsica 
 320;163;sea;1319;-1;-1;-1;-1;Rhodes-Crete 
 145;163;sea;1319;-1;-1;-1;-1;Morea-Crete
-484;2536;sea;1505;-1;-1;-1;-1;Havana-Mayaimi
-982;981;sea;1491;-1;-1;-1;-1;Unamakik-Taqamkuk 
 235;87;sea;1271;-1;-1;-1;-1;Kent-Calais
-4624;2652;sea;1512;-1;-1;-1;-1;Guane-Ecab 
+4624;2652;sea;1512;-1;-1;-1;-1;Guane-Ecab
+484;2536;sea;1505;-1;-1;-1;-1;Havana-Mayaimi
+982;981;sea;1491;-1;-1;-1;-1;Unamakik-Taqamkuk  
 493;1881;sea;1523;-1;-1;-1;-1;St. Martin-St. Thomas 
 496;497;sea;1523;-1;-1;-1;-1;Guadelupe-Dominica 
 488;487;sea;1516;-1;-1;-1;-1;Jamaica-Zui 
@@ -58,6 +58,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 151;316;sea;1320;3261;1343;3258;1344;Thrace-Bithynia
 911;945;sea;1662;1479;1656;1478;1650;Menominee-Michigan
 1;1930;sea;1928;3099;1736;3111;1740;Stockholm-Åland
+4165;1981;sea;1257;-1;-1;-1;-1;Göinge-Bornholm
+3;25;sea;1255;-1;-1;-1;-1;Kalmar-Gotland
 1930;27;sea;1253;3131;1745;3140;1750;Åland-Finland
 142;144;sea;1311;3115;1314;3121;1317;Janina-Corfu
 4699;1773;sea;1312;3141;1293;3141;1289;Janina-Achaea
