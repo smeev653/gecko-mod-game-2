@@ -1157,7 +1157,7 @@ in_golden_era = {
 }
 
 absolutism = {
-	administrative_efficiency = 0.5
+	administrative_efficiency = 0.4
 	discipline = 0.05
 	core_decay_on_your_own = -0.5
 }
@@ -1678,7 +1678,7 @@ cossacks_modifier = {
 
 expand_administation_modifier = {
 	expand_administration_cost = 0
-	governing_capacity = 250
+	governing_capacity = 200
 }
 
 # At 100% over capacity, this modifier will be fully used
@@ -1686,7 +1686,7 @@ over_governing_capacity_modifier = {
 	stability_cost_modifier = 1.0
 	#ae_impact = 0.5
 	improve_relation_modifier = -0.5
-	core_creation = 0.2
+	#core_creation = 0.2
 	advisor_cost = 0.75
 	monthly_militarized_society = -1.0
 	
