@@ -200,12 +200,12 @@ spy_ideas = {
 		advisor_cost = -0.15
 	}	
 	state_propaganda = {
-		leader_cost = -0.2
+		leader_cost = -0.15
 		curia_powers_cost = -0.25
 		church_power_modifier = 0.2
 		yearly_harmony = 1
 		devotion = 0.5
-		monthly_piety = -0.02
+		monthly_piety = -0.01
 		
 	}
 	vetting = {
