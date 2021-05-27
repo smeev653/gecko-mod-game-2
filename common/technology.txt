@@ -75,6 +75,10 @@ groups = {
 			value = 75
 		}
 	}
+	gunpowder_empire = {
+		start_level = 3
+		start_cost_modifier = 0.4
+	}
 	indian = {
 		start_level = 3
 		start_cost_modifier = 0.5

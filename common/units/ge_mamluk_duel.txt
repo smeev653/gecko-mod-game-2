@@ -1,6 +1,6 @@
 # Mamluk Duel
 
-unit_type = muslim
+unit_type = gunpowder_empire
 type = infantry
 
 

@@ -94,3 +94,6 @@ gecko_bankrupt_interest = {
 adu_popular_appeal = {
 	infantry_power = 0.1
 }
+
+recently_hired_mercs = {
+}

@@ -1,10 +1,9 @@
-# Mamluk Duel
+# Muslim Cavalry Archers
 
-unit_type = muslim
-type = infantry
+type = cavalry
+unit_type = gunpowder_empire
 
-
-maneuver = 1
+maneuver = 2
 offensive_morale = 1
 defensive_morale = 1
 offensive_fire = 0
