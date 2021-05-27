@@ -279,8 +279,46 @@ country_decisions = {
 
 	}
 			
-			
-			
-}	
+#	20_mercs = {
+#		potential = {
+#			NOT = { colony = 1 }
+#			NOT = { has_country_modifier = recently_hired_mercs }
+#		}
+#		allow = {
+#			treasury = 375
+#			NOT =  {num_of_mercenaries = 20 }
+#		}
+#		effect = {
+#			add_country_modifier = {
+#				name = "recently_hired_mercs"
+#				duration = 1825
+#				}
+#			add_treasury = -375
+#			capital_scope = {
+#			 ROOT = {
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#				mercenary_infantry = PREV
+#			}
+#		}
+#	}
+#}	
 
 		
