@@ -443,7 +443,7 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		army_tradition_from_battle = 1.0
+		army_tradition = 0.5	
 	}
 	military_drill = {
 		land_morale = 0.15
@@ -838,7 +838,7 @@ quality_ideas = {
 		infantry_power = 0.1
 	}
 	quality_education = {
-		army_tradition = 0.5
+		army_tradition_from_battle = 1.0
 	}
 	finest_of_horses = {
 		cavalry_power = 0.1
