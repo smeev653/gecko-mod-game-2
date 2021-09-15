@@ -75,10 +75,6 @@ groups = {
 			value = 75
 		}
 	}
-	gunpowder_empire = {
-		start_level = 3
-		start_cost_modifier = 0.4
-	}
 	indian = {
 		start_level = 3
 		start_cost_modifier = 0.5
@@ -130,7 +126,7 @@ groups = {
 			has_reform = steppe_horde
 		}
 	}
-	sub_saharan = { #West African
+	sub_saharan = { 
 		start_level = 3
 		start_cost_modifier = 0.6
 	}
@@ -199,6 +195,10 @@ groups = {
 		nation_designer_cost = {
 			value = 75
 		}
+	}
+	gunpowder_empire = {
+		start_level = 3
+		start_cost_modifier = 0.4
 	}
 }
 

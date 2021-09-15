@@ -47,7 +47,7 @@ estate_brahmins_land_rights = {
 		}
 		modifier = {
 			factor = 0
-			NOT = { num_of_territories = 1 }
+			NOT = { governing_capacity_percentage = 0.5 }
 		}
 		modifier = {
 			factor = 0.8

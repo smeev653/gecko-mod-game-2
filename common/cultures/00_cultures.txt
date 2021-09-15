@@ -1707,28 +1707,28 @@ finno_ugric = { #Ugric
 	}
 }
 	
-south_slavic = {
-	graphical_culture = easterngfx
-	
-	BBB = { #Egyptian Arab
-		primary = BBB
-		dynasty_names = {
-			"Burji" "Alawiyya" "Bahri"
-			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
-		}
-		male_names = {
-			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
-			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
-			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
-			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
-		}
-		female_names = {
-			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
-			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
-		}
-	}
-}
+#south_slavic = {
+#	graphical_culture = easterngfx
+#	
+#	BBB = { #Egyptian Arab
+#		primary = BBB
+#		dynasty_names = {
+#			"Burji" "Alawiyya" "Bahri"
+#			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
+#		}
+#		male_names = {
+#			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
+#			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
+#			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
+#			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
+#		}
+#		female_names = {
+#			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+#			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+#			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+#		}
+#	}
+#}
 	
 west_slavic = {
 	graphical_culture = westerngfx
@@ -2755,28 +2755,28 @@ byzantine = {
 	}
 }
 
-caucasian = {
-	graphical_culture = easterngfx
-	
-	AAA = { #Egyptian Arab
-		primary = AAA
-		dynasty_names = {
-			"Burji" "Alawiyya" "Bahri"
-			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
-		}
-		male_names = {
-			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
-			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
-			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
-			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
-		}
-		female_names = {
-			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
-			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
-			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
-		}
-	}
-}
+#caucasian = {
+#	graphical_culture = easterngfx
+#	
+#	AAA = { #Egyptian Arab
+#		primary = AAA
+#		dynasty_names = {
+#			"Burji" "Alawiyya" "Bahri"
+#			Katkhuda Abaza Qasimiyya Qitas al-Qazdughli Yakubid Hassanid
+#		}
+#		male_names = {
+#			Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
+#			Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
+#			Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
+#			Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
+#		}
+#		female_names = {
+#			Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+#			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+#			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+#		}
+#	}
+#}
 
 turko_semitic = { #Levantine
 	graphical_culture = muslimgfx
