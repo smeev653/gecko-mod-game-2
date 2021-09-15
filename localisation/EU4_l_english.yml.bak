@@ -4926,7 +4926,6 @@
  PATROL_MISSION_REQUIRES_DESTINATION:0 "To start Patrolling, first right-click on a destination at least one sea zone away."
  EVADE_MISSION_REQUIRES_DESTINATION:0 "To Evade enemies, first right-click on a destination."
  HUNT_REBELS_MISSION_DESC:0 "Suppressing rebels"
- CARPET_SIEGE_MISSION_DESC:0 "Carpet Sieging"
  EXPLORE_LAND_MISSION_DESC:0 "Exploring"
  DRILL_ARMY_MISSION_DESC:0 "Drilling"
  UPGRADE_SHIPS:0 "§YUpgrade Ships§!"

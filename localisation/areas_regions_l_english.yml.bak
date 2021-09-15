@@ -937,7 +937,7 @@
  te_ika_a_maui_waho_area_name:0 "Te Ika a Maui Waho"
  te_ika_a_maui_waho_area_adj:0 "Eastern Maori" te_waipounamu_area:0 "Te Waipounamu"
  te_waipounamu_area_name:0 "Te Waipounamu"
- te_waipounamu_area_adj:1 "Southern Maori"
+ te_waipounamu_area_adj:0 "Maoiri"
  western_sahara_area:0 "Western Sahara"
  western_sahara_area_name:0 "Azawad"
  western_sahara_area_adj:0 "Azawadi"

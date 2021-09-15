@@ -6756,7 +6756,7 @@ country_event = {
 	
 	trigger = {
 		has_idea_group = administrative_ideas
-		NOT = { stability = 3 }
+		NOT= { stability = 3 }
 	}
 
 	mean_time_to_happen = {

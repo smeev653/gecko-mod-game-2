@@ -17,17 +17,20 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	aboriginal_boomerang
-	aboriginal_reformed_boomerang
-	aboriginal_horseman
-	aboriginal_outback_warriors
-	aboriginal_cavalry
-	aboriginal_arquebusier
-	aboriginal_hussar
-	aboriginal_swarm_cav
-	aboriginal_riflemen
-	aboriginal_dragoon
-	aboriginal_guerrillas
+	chinese_longspear
+	eastern_bow
+	chinese_footsoldier
+	chinese_steppe
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	manchu_banner
+	han_banner
+	asian_musketeer
+	chinese_dragoon
+	reformed_asian_musketeer
+	reformed_asian_cavalry
+	reformed_manchu_rifle
 }
 
 

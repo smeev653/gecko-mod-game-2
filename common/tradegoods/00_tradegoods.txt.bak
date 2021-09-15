@@ -1512,6 +1512,12 @@ dyes = {
 			NOT = { region = mexico_region }
 			NOT = { region = carribeans_region }
 		}
+		modifier = {
+			factor = 2.0
+			FROM = {
+				has_country_flag = encourage_cash_crops_flag
+			}
+		}
 	}
 }
 
@@ -1732,6 +1738,7 @@ paper = {
 		modifier = {
 			factor = 0
 			NOT = { development_discounting_tribal = 18 }
+		}	
 		modifier = {
 			factor = 2.0
 			development_discounting_tribal = 22
@@ -1854,7 +1861,7 @@ gems = {
 			OR = {
 				area = diamantina_area
 				area = bogota_area
-	area = murray_river_area #Opal
+				area = murray_river_area #Opal
 			}
 		}
 		modifier = {
@@ -1921,6 +1928,34 @@ coal = {
 
 	chance = {
 		factor = 1
+	}
+}
+
+cloves = {
+	color = { 1.0 0.5 0.85 }
+	modifier = {
+		trade_efficiency = 0.05
+	}
+	province = {
+		province_trade_power_modifier = 0.2
+	}
+	chance = {
+		factor = 150
+		modifier = {
+			factor = 0
+			NOT = {
+				OR = {
+					area = molluca_area
+					area = spice_islands_area
+				}
+			}
+		}
+		modifier = {
+			factor = 2.0
+			FROM = {
+				has_country_flag = encourage_cash_crops_flag
+			}
+		}
 	}
 }
 

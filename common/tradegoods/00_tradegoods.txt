@@ -1512,6 +1512,12 @@ dyes = {
 			NOT = { region = mexico_region }
 			NOT = { region = carribeans_region }
 		}
+		modifier = {
+			factor = 2.0
+			FROM = {
+				has_country_flag = encourage_cash_crops_flag
+			}
+		}
 	}
 }
 
@@ -1855,7 +1861,7 @@ gems = {
 			OR = {
 				area = diamantina_area
 				area = bogota_area
-		area = murray_river_area #Opal
+				area = murray_river_area #Opal
 			}
 		}
 		modifier = {
@@ -1889,6 +1895,12 @@ gems = {
 		modifier = {
 			factor = 1.5
 			normal_or_historical_nations = no
+		}
+		modifier = {
+			factor = 2.0
+			FROM = {
+				has_country_flag = encourage_cash_crops_flag
+			}
 		}
 	}
 }

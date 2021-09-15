@@ -83,9 +83,9 @@ eth_mil_aid_from_portugal = {
 	#global_manpower_modifier = 0.25
 }
 
-the_upper_nile = {
-	trade_goods_size_modifier  = 0.1
-}	
+#the_upper_nile = {
+#	trade_goods_size_modifier  = 0.1
+#}	
 
 gecko_bankrupt_interest = {
 	interest = 2.5

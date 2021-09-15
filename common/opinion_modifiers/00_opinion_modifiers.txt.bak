@@ -2976,11 +2976,11 @@ opinion_erased_pope = {
 	yearly_decay = 1
 }
 opinion_not_erased_rival_pope = {
-	opinion = -60
+	opinion = 60
 	yearly_decay = 1
 }
 opinion_not_erased_pope = {
-	opinion = 50
+	opinion = -50
 	yearly_decay = 1
 }
 
