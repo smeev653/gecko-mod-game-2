@@ -1,8 +1,8 @@
 #72 - Breisgau
 
-owner = KNZ
-controller = KNZ
-add_core = KNZ
+owner = TIR
+controller = TIR
+add_core = TIR
 culture = swabian
 religion = catholic
 base_tax = 4 
