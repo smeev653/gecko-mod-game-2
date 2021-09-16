@@ -74,10 +74,6 @@ country_decisions = {
 					}
 					change_government_to_monarchy = yes
 				}
-				if = {
-					limit = { is_revolutionary = no }
-					add_government_reform = ottoman_government
-				}
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
