@@ -1,8 +1,8 @@
 # 2881 - Alxa
 
-owner = TAN
-controller = TAN
-add_core = TAN
+owner = TN1
+controller = TN1
+add_core = TN1
 culture = mongol
 religion = vajrayana
 capital = "Alxa"
