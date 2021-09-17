@@ -247,11 +247,11 @@ country_event = {
 					country_event = { id = flavor_bur.20 days = 1 }
 				}
 			}
-			else = {
-				every_enemy_country = {
-					country_event = { id = dutch_revolt.20 days = 1 }
-				}
-			}
+			#else = {
+				#every_enemy_country = {
+					#country_event = { id = dutch_revolt.20 days = 1 }
+				#}
+			#}
 			# Begin incident
 			if = {
 				limit = {

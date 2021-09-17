@@ -1,0 +1,2 @@
+#PR Africa Tags:
+PR2 = "countries/PRSokoto.txt"

@@ -1,3 +1,0 @@
-namespace = monument_events
-
-# Monument reaches highest tier

@@ -1744,7 +1744,8 @@ top_end_area = { #4 (Tiwi and stuff)
 }
 
 eastern_australia_area = { #4 (New South Wales)
-	1091 1092 4855 4856}
+	1091 1092 4855 4856
+}
 
 southern_australia_area = { #4 (Melbourne/Victoria)
 	1087 1088 2734 4861 1089
@@ -2857,6 +2858,10 @@ hebei_area = { #4 (North Hebei)
 	692 695 696 1816 5593
 }
 
+south_hebei_area = { #4
+#	695 696 2137 4195
+}
+
 shandong_area = { #5
 	690 5514 5592 5667
 }
@@ -2930,6 +2935,10 @@ shaanxi_area = { #4
 
 gansu_area = { #5 (East Gansu)
 	698 5511 5572 5587 5510
+}
+
+west_gansu_area = { #4 
+#	707 708 2182 2184
 }
 
 ankang_area = {
@@ -4018,4 +4027,10 @@ magadan_area = { }
 
 netherlands_area = { }
 
+indonesian_islands_area = {  }
+
 iceland_area = { }
+
+ceram_area = { }
+
+south_laos_area = { }

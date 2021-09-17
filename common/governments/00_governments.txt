@@ -272,7 +272,6 @@ republic = {
 				protectorate_parliament_reform
 				prussian_republic_reform
 				united_cantons_reform
-				h_reform_commandery
 			}
 		}
 		republican_virtues = {

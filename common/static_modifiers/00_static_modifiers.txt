@@ -287,7 +287,7 @@ patriarch_state = {
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
 	local_unrest = -3
-	local_manpower_modifier = 0.20
+	local_manpower_modifier = 0.2
 }
 
 #for the country
@@ -1353,8 +1353,7 @@ drilling_armies = { # Multiplied by percentage of forcelimit currently drilling
 # Scripted and used from Diplomatic System
 ##################################################################################################
 recruitment_sabotaged = {
-	manpower_recovery_speed = -0.2
-	sailors_recovery_speed = -0.2
+	global_regiment_recruit_speed = 0.1
 }
 
 merchants_slandered = {
@@ -1362,20 +1361,15 @@ merchants_slandered = {
 }
 
 discontent_sowed = {
-	global_unrest = 2
-	legitimacy = -1
-	republican_tradition = -0.2
-	devotion = -1
-	horde_unity = -1
-	meritocracy = -0.5
+	global_unrest = 1
 }
 
 reputation_sabotaged = {
-	diplomatic_reputation = -3
+	diplomatic_reputation = -1
 }
 
 corrupt_officials = {
-	yearly_corruption = 0.1
+	yearly_corruption = 0.01
 }
 
 scaled_trade_league_leader = { #scaled by number of members

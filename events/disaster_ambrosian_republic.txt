@@ -107,10 +107,93 @@ country_event = {
 	}
 }
 
-# for France event removed
+# for France
+country_event = {
+	id = ambrosian_republic.3
+	title = ambrosian_republic.2.t
+	desc = ambrosian_republic.3.d
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = ITALIAN_wars_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = DEBATE_REPUBLICAN_eventPicture
+	}
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ambrosian_republic.3.a
+		ai_chance = { factor = 75 }
+		#add_casus_belli = {
+		#	type = cb_restore_personal_union
+		#	months = 300
+		#	target = MLO
+		#}
+		lombardy_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = ambrosian_republic.3.b
+		ai_chance = { factor = 25 }
+		add_prestige = 5
+	}
+}
 
-# for emperor event removed
-
+# for emperor
+country_event = {
+	id = ambrosian_republic.4
+	title = ambrosian_republic.2.t
+	desc = ambrosian_republic.4.d
+	picture = {	
+		trigger = {
+			has_dlc = "Emperor"
+		}
+		picture = ITALIAN_wars_eventPicture
+	}
+	picture = {	
+		trigger = {
+			NOT = { has_dlc = "Emperor" }
+		}
+		picture = DEBATE_REPUBLICAN_eventPicture
+	}
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ambrosian_republic.3.a
+		ai_chance = { factor = 75 }
+		#add_casus_belli = {
+		#	type = cb_restore_personal_union
+		#	months = 300
+		#	target = MLO
+		#}
+		lombardy_area = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_claim = ROOT
+		}
+	}
+	option = {
+		name = ambrosian_republic.3.b
+		ai_chance = { factor = 25 }
+		add_prestige = 5
+	}
+}
 
 # Sforza defects to Milan
 country_event = {
