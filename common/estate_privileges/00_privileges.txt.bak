@@ -526,6 +526,8 @@ estate_dhimmi_land_rights = {
 	can_select = {
 
 			}
+		}
+	}
 	on_granted = {
 	}
 	penalties = {
@@ -2353,7 +2355,12 @@ estate_brahmins_flexible_deities = {
 		NOT = { religion_group = muslim }
 		has_dlc = "Wealth of Nations"
 	}
-	
+	can_select = {
+		estate_influence = {
+			estate = estate_brahmins
+			influence = 60
+		}}
+	}
 	on_granted = {
 		custom_tooltip = estate_brahmins_flexible_deities_effect_tooltip
 	}
@@ -2716,6 +2723,7 @@ estate_maratha_levies = {
 		global_manpower_modifier = 0.5
 	}
 
+	}
 	penalties = {
 	}
 	ai_will_do = {
@@ -6896,84 +6904,6 @@ estate_brahmins_statutory_rights = {
 		factor = 0
 	}
 	cooldown_years = 20
-}
-
-estate_church_brahmins_at_court = {
-	icon = privilege_seek_support_of_brahmins
-	can_select = {
-		#if = {
-		#	limit = {
-		#		has_mission = mnd_khm_religion
-		#	}
-		#	mission_completed = mnd_khm_religion
-		#}
-		#else_if = {
-		#	limit = {
-		#		has_mission = mnd_khm_religion
-		#	}
-		#	mission_completed = mnd_siam_devaraja
-		#}
-		#else = {
-		#	has_estate_privilege = estate_church_brahmins_at_court
-		#}
-		OR = {
-			tag = KHM
-			tag = SIA
-			has_estate_privilege = estate_church_brahmins_at_court
-		}
-		religion_group = eastern
-	}
-	is_valid = {
-		religion_group = eastern
-		OR = {
-			tag = KHM
-			tag = SIA
-			has_estate_privilege = estate_church_brahmins_at_court
-		}
-	}
-	on_granted = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					religion = hinduism
-				}
-				add_province_modifier = {
-					name = estate_brahmins_guaranteed_autonomy_mod
-					duration = -1
-				}
-			}
-		}
-	}
-	on_revoked = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-				}
-				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-		}
-	}
-	on_invalid = {
-		custom_tooltip = estate_brahmins_guaranteed_autonomy_revoke_effect_tooltip
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					has_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-				}
-				remove_province_modifier = estate_brahmins_guaranteed_autonomy_mod
-			}
-		}
-	}
-	penalties = {
-	}
-	benefits = {
-	}
-	ai_will_do = {
-		factor = 1000
-	}
 }
 estate_burghers_khmer_irrigation = {
 	icon = privilege_monopoly_of_goods_livestock

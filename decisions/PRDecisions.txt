@@ -7,6 +7,7 @@ country_decisions = {
 			AND = { 
 				religion_group = muslim
 				NOT = { has_country_modifier = PR_muslim_school_cooldown }
+				ai = no
 			}
 		}
 		allow = {
