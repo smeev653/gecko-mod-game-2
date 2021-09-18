@@ -305,7 +305,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-	
+}		
 #	prussian_nation_general = {
 #		major = yes
 #		potential = {

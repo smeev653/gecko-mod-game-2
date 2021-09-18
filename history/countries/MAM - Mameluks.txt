@@ -82,7 +82,6 @@ change_estate_land_share = {
 		name = "Jaqmaq"
 		birth_date = 1399.3.30
 		dynasty = "Burji"
-		culture = egyptian
 		adm = 3
 		dip = 3
 		mil = 4

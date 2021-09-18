@@ -98,9 +98,6 @@ country_decisions = {
 			}
 			set_government_rank = 3
 			if = {
-				limit = { is_revolutionary = no }
-			}
-			if = {
 				limit = {
 					has_reform = states_general_reform
 				}

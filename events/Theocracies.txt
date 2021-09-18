@@ -281,7 +281,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 				culture = event_target:noble_province
 			}
 		}
@@ -290,7 +290,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 			}
 		}
 		add_devotion = -5
@@ -371,7 +371,7 @@ country_event = {
 					dynasty = PREV 
 					age = 35
 					culture = PREV
-					hidden = no
+					hidden = yes
 				} 
 			}
 			add_opinion = { who = ROOT modifier = opinion_theocracy_noble }
@@ -431,7 +431,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 				culture = event_target:burgher_province
 			}
 		}
@@ -440,7 +440,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 			}
 		}
 		add_years_of_income = 0.35
@@ -499,7 +499,7 @@ country_event = {
 				age = 35
 				DIP = 1
 				MIL = 1
-				hidden = no
+				hidden = yes
 				culture = event_target:church_province
 			}
 		}
@@ -508,7 +508,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 			}
 		}
 		add_devotion = 5
@@ -580,7 +580,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 				culture = event_target:church_province
 			}
 		}
@@ -589,7 +589,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 			}
 		}
 		add_devotion = 10
@@ -640,7 +640,7 @@ country_event = {
 				MIL = 1
 				age = 35
 				culture = event_target:papal_protoge_country
-				hidden = no
+				hidden = yes
 			}
 		}
 		else = {
@@ -648,7 +648,7 @@ country_event = {
 				DIP = 1
 				MIL = 1
 				age = 35
-				hidden = no
+				hidden = yes
 			}
 		}
 		add_papal_influence = 10
@@ -684,7 +684,7 @@ country_event = {
 			DIP = 1
 			MIL = 1
 			age = 35
-			hidden = no
+			hidden = yes
 		}
 		add_devotion = 10
 		add_prestige = -10
@@ -723,7 +723,7 @@ country_event = {
 			DIP = 1
 			MIL = 1
 			age = 35
-			hidden = no
+			hidden = yes
 		}
 		if = { 
 			limit = { religion = reformed }

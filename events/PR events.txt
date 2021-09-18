@@ -55,6 +55,7 @@ country_event = {
         name = "PR_events.1.a"
 		custom_tooltip = PR_events.1.a
 		ai_chance = {
+			factor = 0
 		}
     }
 }

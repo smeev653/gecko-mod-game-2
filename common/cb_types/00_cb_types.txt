@@ -35,9 +35,6 @@ cb_restore_personal_union = {
 			}
 			is_subject = no
 		}
-		FROM = {
-			ai = yes
-		}
 	}
 
 	war_goal = take_capital_personal_union
@@ -109,7 +106,7 @@ cb_dishonored_call = {
 	valid_for_subject = no
 
 	is_triggered_only = yes
-	months = 36
+	months = 96
 
 	war_goal = superiority_insult
 }
@@ -120,12 +117,6 @@ cb_vassalize_mission = {
 
 	is_triggered_only = yes
 	months = 120
-	
-	prerequisites = {
-		FROM = {
-			ai = yes
-		}
-	}
 
 	war_goal = take_capital_vassalize
 }
@@ -207,7 +198,6 @@ cb_trade_league_conflict = {
 	valid_for_subject = no
 
 	prerequisites = {
-		always = no
 		is_trade_league_leader = yes
 		can_justify_trade_conflict = FROM
 	}
@@ -362,6 +352,16 @@ cb_independence_war = {
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						has_country_flag = ikko_ikki_peasants_flag
+						OR = {
+							has_reform = leading_clergy_reform
+							has_reform = monastic_order_reform
+							has_reform = peasants_republic
+						}
+					}
+				}
 			}
 			NOT = { from = { has_reform = shogunate } }
 		}
@@ -376,7 +376,6 @@ cb_colonial_independance_war = {
 	independence = yes
 
 	prerequisites = {
-		always = no
 		is_subject = yes
 		is_colonial_nation_of = FROM
 	}
@@ -464,6 +463,14 @@ cb_daimyo_annex = {
 					has_reform = black_market_consortium_reform
 				}
 			}
+			AND = {
+				has_country_flag = ikko_ikki_peasants_flag
+				OR = {
+					has_reform = leading_clergy_reform
+					has_reform = monastic_order_reform
+					has_reform = peasants_republic
+				}
+			}
 		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
@@ -493,6 +500,14 @@ cb_independent_daimyo_annex = {
 					has_reform = black_market_consortium_reform
 				}
 			}
+			AND = {
+				has_country_flag = ikko_ikki_peasants_flag
+				OR = {
+					has_reform = leading_clergy_reform
+					has_reform = monastic_order_reform
+					has_reform = peasants_republic
+				}
+			}
 		}
 		from = { has_reform = shogunate }
 		is_revolutionary = no
@@ -516,6 +531,14 @@ cb_shogun_annex = {
 						has_reform = pirate_king_reform
 						has_reform = war_against_the_world_doctrine_reform
 						has_reform = black_market_consortium_reform
+					}
+				}
+				AND = {
+					has_country_flag = ikko_ikki_peasants_flag
+					OR = {
+						has_reform = leading_clergy_reform
+						has_reform = monastic_order_reform
+						has_reform = peasants_republic
 					}
 				}
 			}
@@ -546,6 +569,14 @@ cb_sengoku = {
 					has_reform = black_market_consortium_reform
 				}
 			}
+			AND = {
+				has_country_flag = ikko_ikki_peasants_flag
+				OR = {
+					has_reform = leading_clergy_reform
+					has_reform = monastic_order_reform
+					has_reform = peasants_republic
+				}
+			}
 		}
 		is_neighbor_of = FROM
 		is_subject = yes
@@ -559,6 +590,14 @@ cb_sengoku = {
 						has_reform = pirate_king_reform
 						has_reform = war_against_the_world_doctrine_reform
 						has_reform = black_market_consortium_reform
+					}
+				}
+				AND = {
+					has_country_flag = ikko_ikki_peasants_flag
+					OR = {
+						has_reform = leading_clergy_reform
+						has_reform = monastic_order_reform
+						has_reform = peasants_republic
 					}
 				}
 			}
@@ -787,8 +826,7 @@ cb_excommunication = {
 cb_trade_war = {
 
 	prerequisites = {
-	always = no
-	
+
 		OR = {
 			AND = {
 				trade_embargo_by = FROM
@@ -816,7 +854,6 @@ cb_trade_war = {
 		po_transfer_vassals
 	}
 }
-
 
 # Trade War for embargoed Trade League members
 cb_trade_league_dispute = {
@@ -961,39 +998,39 @@ cb_revoke_electorate = {
 }
 
 # When someone is privateering in a node that you trade and have some power in.
-cb_privateers = {
-
-	prerequisites = {
-		FROM = {
-			has_privateers = yes
-		}
-		or = {
-			home_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 10
-				}
-				privateer_power = {
-					country = FROM
-					share = 1
-				}
-			}
-			any_active_trade_node = {
-				trade_share = {
-					country = ROOT
-					share = 10
-				}
-				privateer_power = {
-					country = FROM
-					share = 1
-				}
-			}
-		}
-		is_revolutionary = no
-	}
-
-	war_goal = blockade_ports
-}
+#cb_privateers = {
+#
+#	prerequisites = {
+#		FROM = {
+#			has_privateers = yes
+#		}
+#		or = {
+#			home_trade_node = {
+#				trade_share = {
+#					country = ROOT
+#					share = 10
+#				}
+#				privateer_power = {
+#					country = FROM
+#					share = 1
+#				}
+#			}
+#			any_active_trade_node = {
+#				trade_share = {
+#					country = ROOT
+#					share = 10
+#				}
+#				privateer_power = {
+#					country = FROM
+#					share = 1
+#				}
+#			}
+#		}
+#		is_revolutionary = no
+#	}
+#
+#	war_goal = blockade_ports
+#}
 
 # War in support of rebels
 cb_support_rebels = {
@@ -1016,8 +1053,14 @@ cb_crush_the_revolution = {
 
 	prerequisites = {
 		OR = {
-			capital_scope = { continent = europe }
+			#capital_scope = { continent = europe }
 			is_neighbor_of = FROM
+			NOT = {
+				border_distance = {
+					who = FROM
+					distance = 200
+				}
+			}
 		}
 		is_revolutionary = no
 		is_free_or_tributary_trigger = yes
@@ -1197,27 +1240,20 @@ cb_take_mandate = {
 		}
 		NOT = { truce_with = FROM }
 		is_revolutionary = no
+		
+		OR = {
+			ai = no
+			culture_group = east_asian
+			any_owned_province = {
+				culture_group = east_asian
+				has_owner_accepted_culture = yes
+			}
+		}
 	}
 
 	war_goal = take_capital_take_mandate
 }
 
-# Force migration
-cb_force_migration = {
-
-	valid_for_subject = no
-
-	prerequisites = {
-		has_dlc = "The Cossacks"
-		is_neighbor_of = FROM
-		is_free_or_tributary_trigger = yes
-		FROM = {
-			can_migrate = yes
-			is_free_or_tributary_trigger = yes
-		}
-	}
-	war_goal = force_migration
-}
 
 # Forced our ally to break alliance
 cb_forced_break_alliance = {
@@ -1236,16 +1272,44 @@ cb_force_tributary = {
 	prerequisites = {
 		has_dlc = "Mandate of Heaven"
 		is_emperor_of_china = yes
-		FROM = { is_subject = no }
-		is_neighbor_of = FROM
-		FROM = {
-			ai = yes
+		FROM = { 
+			is_subject = no
+			NOT = {
+				has_reform = h_reform_commandery
+			}
+			NOT = {
+				has_reform = h_reform_warlord_1 
+			}
+			NOT = {
+				has_reform = h_reform_warlord_2
+			}
+			NOT = {
+				has_reform = h_reform_warlord_3
+			}
+			NOT = {
+				has_reform = h_reform_warlord_4
+			}
+			NOT = {
+				has_reform = h_reform_prefecture
+			}
+			NOT = {
+				has_reform = h_reform_citystate
+			}
 		}
+		is_neighbor_of = FROM
 	}
 	
 	war_goal = take_capital_force_tributary
 }
+cb_force_tributary_mission = {
 
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 300
+	
+	war_goal = take_capital_force_tributary
+}
 cb_hundred_years_union = {
 	valid_for_subject = no
 
@@ -1261,6 +1325,8 @@ cb_hundred_years_union = {
 
 	war_goal = take_capital_personal_union
 }
+
+
 
 cb_force_join_hre = {
 	valid_for_subject = no
@@ -1322,10 +1388,150 @@ cb_world_crusade = {
 				FROM = { religion_group = pagan }
 			}
 		}
-		NOT = { religion_group = FROM }
+		NOT = { religion = FROM }
 		NOT = {	has_matching_religion = FROM }
 		is_revolutionary = no
 	}
 
 	war_goal = superiority_world_crusade
+}
+
+# CB for Majapahit
+cb_vassalize_majapahit = {
+	valid_for_subject = no
+
+	prerequisites = {
+		mission_completed = mnd_maj_enforce_loyalty
+		FROM = {
+			is_free_or_tributary_trigger = yes
+			OR = {
+				culture_group = malay
+				AND = {
+					technology_group = chinese
+					ROOT = { mission_completed = mnd_maj_gaja_madas_oath }
+				}
+				ROOT = { mission_completed = mnd_maj_subjugate_the_mainland }
+			}
+		}
+	}
+
+	war_goal = take_capital_vassalize_maj
+}
+
+# For Malacca
+cb_vassalize_malacca = {
+	valid_for_subject = no
+
+	prerequisites = {
+		mission_completed = mnd_mlc_destroy_majapahit
+		FROM = {
+			is_free_or_tributary_trigger = yes
+			culture_group = malay
+		}
+	}
+
+	war_goal = take_capital_vassalize_maj
+}
+
+cb_sword_of_islam = {
+	valid_for_subject = no
+
+	prerequisites = {
+		mission_completed = atj_porch_of_mecca
+		religion = sunni
+		FROM = {
+			NOT = { religion_group = muslim }
+			OR = {
+				primary_culture = sumatran
+				AND = {
+					ROOT = { mission_completed = atj_sumatra_islam }
+					OR = {
+						primary_culture = javanese
+						primary_culture = sundanese
+					}
+				}
+				AND = {
+					ROOT = { mission_completed = atj_java_islam }
+					OR = {
+						primary_culture = sulawesi
+						primary_culture = moluccan
+					}
+				}
+				AND = {
+					ROOT = { mission_completed = atj_moluccas_islam }
+					is_neighbor_of = ROOT
+				}
+			}
+		}
+	}
+
+	war_goal = superiority_world_crusade
+}
+
+# Force migration
+#cb_force_migration = {
+#
+#	valid_for_subject = no
+#
+#	prerequisites = {
+#		has_dlc = "Conquest of Paradise"
+#		is_native_tribe = yes
+#		FROM = {
+#			is_migratory_tribe = yes
+#			capital_scope = {
+#				tribal_land_of = ROOT
+#			}
+#		}
+#	}
+#	war_goal = force_migration
+#}
+
+# 
+#cb_native_american_tribal_feud = {
+#	valid_for_subject = no
+#
+#	prerequisites = {
+#		has_dlc = "Conquest of Paradise"
+#		is_native_tribe = yes
+#		FROM = {
+#			is_native_tribe = yes
+#			if = {
+#				limit = { 
+#					capital_scope = {
+#						tribal_land_of = FROM
+#					}
+#				}
+#				is_neighbor_of = ROOT # This is faster method so let's do this for the general case
+#			}
+#			else = {
+#				any_tribal_land = {
+#					any_neighbor_province = {
+#						tribal_land_of = ROOT
+#					}
+#				}
+#			}
+#		}
+#	}
+#	war_goal = take_native_american_land
+#}
+
+
+cb_push_back_colonizers ={
+	valid_for_subject = no
+
+	prerequisites = {
+		has_dlc = "Conquest of Paradise"
+		is_native_tribe = yes
+		FROM = {
+			is_native_tribe = no
+			OR = {
+			is_neighbor_of = ROOT
+				any_owned_province = {
+				tribal_land_of = ROOT
+				}
+			}
+		}
+	}
+
+	war_goal = push_back_colonizers
 }

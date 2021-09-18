@@ -1746,7 +1746,7 @@ expanded_infrastructure = {
 }
 
 centralize_state = {
-	state_governing_cost_increase = 0
+	state_governing_cost_increase = -20
 	picture = "centralize_state"
 }
 

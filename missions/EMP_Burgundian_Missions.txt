@@ -1305,155 +1305,15 @@ emp_burgundy_4 = {
 		icon = influence_the_princes
 		position = 5
 		required_missions = { emp_bur_join_the_empire }
-
-#		provinces_to_highlight = {
-#			OR = {
-#				AND = {
-#					NOT = { hre_size = 1 }
-#					is_capital = yes
-#					OR = {
-#						region = north_german_region
-#						region = south_german_region
-#					}
-#					owner = {
-#						NOT = { tag = root }
-#						NOT = { has_opinion = { who = ROOT value = 60 } }
-#					}
-#				}
-#				AND = {
-#					hre_size = 1
-#					is_capital = yes
-#					owner = {
-#						is_part_of_hre = yes
-#						NOT = { tag = root }
-#						NOT = { has_opinion = { who = ROOT value = 60 } }
-#					}
-#					OR = {
-#						NOT = {
-#							ROOT = {
-#								calc_true_if = {
-#									all_country = {
-#										is_part_of_hre = yes
-#										has_opinion = { who = ROOT value = 60 }
-#									}
-#									amount = 10
-#								}
-#							}
-#						}
-#						AND = {
-#							hre_size = 20
-#							NOT = {
-#								ROOT = {
-#									calc_true_if = {
-#										all_country = {
-#											is_part_of_hre = yes
-#											has_opinion = { who = ROOT value = 60 }
-#										}
-#										amount = 15
-#									}
-#								}
-#							}
-#						}
-#					}
-#				}
-#				AND = {
-#					owner = {
-#						is_elector = yes
-#						OR = {
-#							NOT = { preferred_emperor = ROOT }
-#							AND = {
-#								NOT = { tag = root }
-#								NOT = { has_opinion = { who = ROOT value = 100 } }
-#							}
-#						}
-#					}
-#					NOT = {
-#						ROOT = {
-#							calc_true_if = {
-#								all_elector = {
-#									preferred_emperor = ROOT
-#									has_opinion = { who = ROOT value = 100 }
-#								}
-#								amount = 5
-#							}
-#						}
-#					}
-#				}
-#			}
-#		}
-
 		trigger = {
 			is_subject = no
-#			if = {
-#				limit = {
-#					NOT = { hre_size = 1 }
-#				}
-#				calc_true_if = {
-#					desc = emp_bur_influence_the_princes_trigger_tooltip3
-#					all_country = {
-#						OR = {
-#							capital_scope = {
-#								region = north_german_region
-#								region = south_german_region
-#							}
-#						}
-#						has_opinion = { who = ROOT value = 60 }
-#					}
-#					amount = 5
-#				}
-#			}
-#			else = {
-#				if = {
-#					limit = { hre_size = 20 }
-#					calc_true_if = {
-#						desc = emp_bur_influence_the_princes_trigger_tooltip
-#						all_country = {
-#							is_part_of_hre = yes
-#							has_opinion = { who = ROOT value = 60 }
-#						}
-#						amount = 15
-#					}
-#				}
-#				else = {
-#					calc_true_if = {
-#						desc = emp_bur_influence_the_princes_trigger_tooltip2
-#						all_country = {
-#							is_part_of_hre = yes
-#							has_opinion = { who = ROOT value = 60 }
-#						}
-#						amount = 10
-#					}
-#				}
-#				calc_true_if = {
-#					desc = secure_the_imperial_crown.tooltip
-#					all_elector = {
-#						preferred_emperor = ROOT
-#						OR = {
-#							tag = root #in case this works
-#							has_opinion = { who = ROOT value = 100 }
-#						}
-#					}
-#					amount = 5
-#				}
-#			}
 		}
-
-		effect = {
-#			if = {
-#				limit = {
-#					government = monarchy
-#					NOT = { legitimacy = 90 }
-#				}
-				add_legitimacy = 10
-#			}
-#			else = {
-				add_prestige = 15
-#			}
+		effect = {	
 			add_country_modifier = {
 				name = bur_influence_over_princes
 				duration = 7300
 			}
-		}
+		}		
 	}
 	emp_bur_lead_the_empire = {
 		icon = lead_the_empire
@@ -1467,37 +1327,18 @@ emp_burgundy_4 = {
 			NOT = { country_or_non_sovereign_subject_holds = root }
 		}
 		trigger = {
-#			if = {
-#				limit = { hre_size = 1 }
-#				is_emperor = yes
-#				imperial_influence = 25
-#			}
-			if = {
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					value = 25
-					OR = {
-						region = north_german_region
-						region = south_german_region
-					}
+				if = {
+					limit = {
+						num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+							value = 25
+								OR = {
+								region = north_german_region
+								region = south_german_region
+								}
+						}
+					}	
 				}
-#				custom_trigger_tooltip = {
-#					tooltip = emp_bur_lead_the_empire_fallback_trigger
-#					NOT = {
-#						any_country = {
-#							capital_scope = {
-#								OR = {
-#									region = north_german_region
-#									region = south_german_region
-#								}
-#							}
-#							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-#								value = 10
-#							}
-#						}
-#					}
-#				}
-			}
-		}
+			}	
 		effect = {
 			add_prestige = 20
 			if = {
@@ -1508,7 +1349,6 @@ emp_burgundy_4 = {
 		}
 	}
 }
-
 emp_lotharingia_4 = {
 	slot = 4
 	generic = no
@@ -1797,7 +1637,7 @@ emp_burgundy_5 = {
 					}
 				}
 				country_event = {
-					id = incidents_bur_``join_empire.1
+					id = incidents_bur_join_empire.1
 				}
 			}
 #			else_if = {
@@ -1834,15 +1674,6 @@ emp_burgundy_5 = {
 		required_missions = { emp_bur_secure_succession }
 		trigger = {
 			is_subject = no
-#			OR = {
-#				is_part_of_hre = yes
-#				is_emperor = yes
-#				NOT = { hre_size = 1 }
-#				custom_trigger_tooltip = {
-#					tooltip = burgundy_has_resolved_imperial_issue_tt
-#					has_country_flag = burgundy_refused_empire
-#				}
-#			}
 		}
 		effect = {
 			if = {

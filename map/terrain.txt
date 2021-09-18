@@ -245,7 +245,7 @@ categories =  {
 			#foffyjapan
 			4131
 			#Ex Sumatra Wasteland
-			5717 5718 5719	
+			#5717 5718 5719	
 		}
 	}
 

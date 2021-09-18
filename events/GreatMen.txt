@@ -1047,7 +1047,8 @@ country_event = {
 	
 	option = {
 		name = "PR_grand_captain_cooldown_tooltip"	# PR advisor cooldown
-		ai_chance = {
+		ai_chance = { 
+			factor = 0
 		}
 		add_country_modifier = {
 			name = "PR_grand_captain_cooldown"
@@ -1202,6 +1203,7 @@ country_event = {
 	option = {
 		name = "PR_commandant_cooldown_tooltip"	# PR advisor cooldown
 		ai_chance = {
+			factor = 0
 		}
 		add_country_modifier = {
 			name = "PR_commandant_cooldown"

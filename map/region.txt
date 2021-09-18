@@ -220,7 +220,7 @@ baltic_region = {
 		curonia_area
 		west_prussia_area
 		east_prussia_area
-		pomerelia_area
+		#pomerelia_area
 		samogitia_area
 	}
 }
@@ -343,7 +343,7 @@ mashriq_region = {
 		al_jazira_area
 		iraq_arabi_area
 		basra_area
-		trans_jordan_area
+		#trans_jordan_area
 		syrian_desert_area
 		aleppo_area
 	}
@@ -1127,7 +1127,7 @@ indonesia_region = { #Eastern Indonesian/Malayan Islands.
 		central_java_area
 		west_java_area
 		lesser_sunda_islands_area
-		indonesian_islands_area
+		#indonesian_islands_area
 		surabaya_area
 		banten_area
 	}

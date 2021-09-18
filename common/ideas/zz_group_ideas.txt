@@ -2089,45 +2089,6 @@ french_culture_ideas = {
 	}
 }
 
-african_great_lakes_ideas = {
-	start = {
-		loot_amount = 0.25
-		hostile_attrition = 1.0
-	}
-	
-	bonus = {
-		merchants = 1
-	}
-	
-	
-	trigger = {
-		culture_group = great_lakes_group
-	}
-	free = yes
-	
-	source_of_the_nile = {
-		global_manpower_modifier = 0.15
-	}
-	heirs_of_kitara = {
-		prestige = 1
-	}
-	no_illegitimate_children = {
-		heir_chance = 0.5
-	}
-	cwezy_religion = {
-		tolerance_own = 2
-	}
-	emitwe = { #Umuheto
-		infantry_cost = -0.1
-	}
-	unity_of_clans = {
-		infantry_power = 0.1
-	}
-	development_of_clientship = {
-		global_tax_modifier = 0.1
-	}
-}
-
 malagasy_ideas = {
 	start = {
 		stability_cost_modifier = -0.1

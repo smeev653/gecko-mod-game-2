@@ -1,4 +1,3 @@
-#bukhara gov reform
 
 silk_road_empire = { #tier 1
 	icon = "asian_scripture"

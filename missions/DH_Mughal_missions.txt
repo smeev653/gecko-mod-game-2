@@ -373,15 +373,15 @@ mug_towards_china = {
 				name = "mug_burmese_ruby_trade"
 				duration = 7300
 			}
-			yun_gui_borderland_area = {
-				limit = {
-					NOT = {
-						is_permanent_claim = ROOT
-						is_core = ROOT
-					}
-				}
-				add_permanent_claim = ROOT
-			}
+			#yun_gui_borderland_area = {
+			#	limit = {
+			#		NOT = {
+			#			is_permanent_claim = ROOT
+			#			is_core = ROOT
+			#		}
+			#	}
+			#	add_permanent_claim = ROOT
+			#}
 			yun_gui_area = {
 				limit = {
 					NOT = {
@@ -402,7 +402,7 @@ mug_towards_china = {
 		position = 8
 		provinces_to_highlight = {
 			OR = {
-				area = yun_gui_borderland_area
+			#	area = yun_gui_borderland_area
 				area = yun_gui_area
 				area = vietnam_area
 				area = guangxi_area
@@ -413,10 +413,10 @@ mug_towards_china = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			yun_gui_borderland_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+		#	yun_gui_borderland_area = {
+			#	type = all
+			#	country_or_non_sovereign_subject_holds = ROOT
+			#}
 			yun_gui_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT

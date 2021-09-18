@@ -1,3 +1,0 @@
-karun_tributary_modifier = {
-	province_trade_power_value = 10
-	}

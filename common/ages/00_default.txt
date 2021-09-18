@@ -329,7 +329,7 @@ age_of_reformation = {
 		}
 		obj_unify_culture = {	
 			is_subject = no
-			development = 1000
+			has_unified_culture_group = yes
 		}
 	}	
 	
@@ -507,7 +507,7 @@ age_of_absolutism = {
 		stability = 1
 		decrease_autonomy_command = 1
 		strengthen_government = 2
-		
+		war_exhaustion = 0
 		increase_autonomy_command = -2
 		debase_currency = -1
 		execute_rebel_acceptance_command = -10
@@ -753,6 +753,8 @@ age_of_revolutions = {
 			modifier = {
 				global_unrest = -6
 			}
+			ai_will_do = {
+				factor = 10
 		}
 
 		ab_napoleonic_warfare = {
@@ -861,4 +863,4 @@ age_of_revolutions = {
 			}
 		}
 	}
-}
+}	
