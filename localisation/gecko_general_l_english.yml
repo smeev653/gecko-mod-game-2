@@ -6,6 +6,8 @@
  PR_commandant_cooldown_tooltip:0 "Perhaps another time..."
  PR_grand_captain_cooldown:0 "Grand Captain Cooldown"
  PR_grand_captain_cooldown_tooltip:0 "Perhaps another time..."
+ gecko_armyreform_cooldown:0 "Let's not get ahead of ourselves..."
+ gecko_armyreform_cooldowntooltip:0 "Perhaps another time..."
  h_tooltip_cn_ally:0 "You may not ally colonial nations."
  h_tooltip_cn_declarewar:0 "Colonial nations may not declare war on countries that have their capital on a different continent."
  h_tooltip_cn_support:0 "Colonial nations may not ask other countries to support their independence."

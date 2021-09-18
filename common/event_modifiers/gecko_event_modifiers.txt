@@ -38,6 +38,15 @@ PR_grand_captain_cooldown = {
 	land_morale = 0.001
 }
 
+gecko_armyreform_cooldown = {
+	land_morale = 0.001
+}
+
+gecko_militaryreform_cooldown = {
+	land_morale = 0.001
+}
+
+
 hired_explorer = {
 }
 

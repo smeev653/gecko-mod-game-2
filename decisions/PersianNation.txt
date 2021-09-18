@@ -139,7 +139,6 @@ country_decisions = {
 				mil = 5
 				}							
 			kill_heir = yes
-			#change_technology_group = gunpowder_empire
 			change_unit_type = gunpowder_empire
 			change_estate_land_share = {
 				estate = estate_nobles

@@ -51,7 +51,8 @@ country_decisions = {
 				area = tihama_al_yemen_area
 				area = upper_yemen_area
 				area = yemen_area
-				area = mahra_area
+				province_id = 402
+				province_id = 4284
 				area = hadramut_area
 				area = bahrain_area
 				area = oman_area
@@ -69,11 +70,12 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no			
-			asir_area = { type = all is_core = ROOT owned_by = ROOT }
+			asir_area = { type = all country_or_non_sovereign_subject_holds = ROOT   }
 			tihama_al_yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			upper_yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			yemen_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
-			mahra_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
+			owns_core_province = 402
+			owns_core_province = 4284
 			hadramut_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			bahrain_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }
 			oman_area = { type = all country_or_non_sovereign_subject_holds = ROOT  }

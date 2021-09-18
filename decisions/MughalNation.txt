@@ -83,7 +83,6 @@ country_decisions = {
 			}
 			add_prestige = 25
 			add_government_reform = mughal_government
-			#change_technology_group = ottoman
 			change_unit_type = gunpowder_empire
 			define_ruler = {
 				name = "Babur"

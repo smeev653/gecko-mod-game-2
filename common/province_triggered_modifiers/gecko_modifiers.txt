@@ -69,3 +69,35 @@ the_upper_nile = {
 	}
 	
 }
+
+conquest_of_constantinople = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				tag = MAM
+				tag = EGY
+				tag = MOR
+				tag = CRI
+				tag = ARB
+				tag = PER
+				tag = TIM
+			}
+		}
+	}
+
+	infantry_power = 0.05
+	prestige = 0.5
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}	
