@@ -755,7 +755,8 @@ age_of_revolutions = {
 			}
 			ai_will_do = {
 				factor = 10
-		}
+			}
+		}	
 
 		ab_napoleonic_warfare = {
 			modifier = {

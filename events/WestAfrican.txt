@@ -652,7 +652,7 @@ country_event = {
 		has_dlc = "Art of War"
 		OR = {
 			culture_group = sahelian
-			culture_group = mande
+			#culture_group = mande
 			culture_group = west_african
 		}
 		religion_group = muslim
@@ -758,7 +758,7 @@ country_event = {
 		has_dlc = "Art of War"
 		OR = {
 			culture_group = sahelian
-			culture_group = mande
+			#culture_group = mande
 			culture_group = west_african
 			#culture_group = african
 		}
@@ -1285,7 +1285,7 @@ country_event = {
 		has_regency = no
 		OR = {
 			culture_group = sahelian
-			culture_group = mande
+			#culture_group = mande
 			culture_group = west_african
 		}
 		government = monarchy
@@ -1355,7 +1355,7 @@ country_event = {
 		is_at_war = yes
 		OR = {
 			culture_group = sahelian
-			culture_group = mande
+			#culture_group = mande
 			culture_group = west_african
 		}
 		NOT = { mil_tech = 12 }
